@@ -1,0 +1,1001 @@
+visit_id,patient_id,department_id,visit_date,visit_duration,visit_type,severity_level,staff_required,staff_skills_required,experience_level_required,resource_allocation_id
+V1,P930,Emergency,2024-02-04 07:35:38,93,routine check-up,medium,1,['intensive care'],3,RA103
+V2,P376,Emergency,2024-01-12 20:36:02,36,routine check-up,low,3,"['anesthesia', 'general care', 'pediatrics']",4,RA82
+V3,P67,General,2024-04-01 23:39:33,51,routine check-up,low,1,['general care'],3,RA36
+V4,P868,Pediatrics,2024-08-25 03:30:18,45,routine check-up,high,1,['general care'],3,RA463
+V5,P25,Surgery,2024-07-01 22:06:58,55,routine check-up,high,1,['surgery'],3,RA50
+V6,P159,Pediatrics,2024-08-16 23:56:30,94,routine check-up,high,3,"['pediatrics', 'surgery', 'general care']",3,RA119
+V7,P633,Emergency,2024-05-15 11:14:51,63,routine check-up,low,3,"['pediatrics', 'surgery', 'anesthesia']",3,RA352
+V8,P700,Pediatrics,2024-06-24 14:43:28,98,emergency,medium,3,"['anesthesia', 'general care', 'pediatrics']",4,RA381
+V9,P867,Surgery,2024-03-25 11:05:34,69,routine check-up,high,1,['anesthesia'],3,RA325
+V10,P482,Emergency,2024-08-01 20:03:07,78,emergency,high,3,"['anesthesia', 'surgery', 'general care']",4,RA111
+V11,P993,General,2024-07-14 00:17:05,41,routine check-up,low,3,"['intensive care', 'anesthesia', 'pediatrics']",3,RA42
+V12,P453,Surgery,2024-08-02 03:30:35,35,routine check-up,low,1,['pediatrics'],4,RA240
+V13,P360,General,2024-06-21 08:37:08,94,emergency,medium,2,"['general care', 'intensive care']",4,RA143
+V14,P937,Surgery,2024-06-10 01:08:01,42,emergency,low,2,"['surgery', 'general care']",3,RA27
+V15,P977,Surgery,2024-07-06 10:09:17,31,emergency,low,3,"['general care', 'pediatrics', 'intensive care']",3,RA185
+V16,P145,ICU,2024-02-13 09:45:56,83,routine check-up,low,3,"['pediatrics', 'general care', 'intensive care']",4,RA477
+V17,P149,Surgery,2024-02-18 06:16:12,102,emergency,high,1,['surgery'],5,RA256
+V18,P593,Pediatrics,2024-01-26 10:47:34,44,emergency,high,2,"['surgery', 'pediatrics']",3,RA66
+V19,P748,General,2024-03-07 19:42:06,50,routine check-up,low,2,"['general care', 'anesthesia']",3,RA473
+V20,P334,Surgery,2024-02-14 20:12:53,118,emergency,medium,2,"['anesthesia', 'general care']",3,RA338
+V21,P168,General,2024-01-24 12:34:56,76,emergency,high,2,"['anesthesia', 'surgery']",5,RA200
+V22,P961,Emergency,2024-07-27 05:15:46,38,emergency,low,2,"['intensive care', 'general care']",3,RA60
+V23,P545,Emergency,2024-02-25 03:55:26,77,emergency,high,1,['surgery'],4,RA320
+V24,P664,General,2024-07-24 00:21:40,45,routine check-up,medium,1,['intensive care'],4,RA379
+V25,P993,Pediatrics,2024-05-18 22:24:46,40,emergency,medium,2,"['general care', 'surgery']",3,RA299
+V26,P145,Surgery,2024-02-25 14:30:03,105,routine check-up,high,1,['surgery'],3,RA464
+V27,P19,Surgery,2024-02-17 06:22:53,30,emergency,high,2,"['anesthesia', 'intensive care']",3,RA404
+V28,P725,Surgery,2024-03-22 01:32:30,103,emergency,high,3,"['pediatrics', 'anesthesia', 'surgery']",4,RA300
+V29,P706,Pediatrics,2024-01-15 23:02:32,76,routine check-up,low,3,"['anesthesia', 'intensive care', 'surgery']",3,RA499
+V30,P376,Emergency,2024-04-05 16:17:03,33,emergency,high,2,"['pediatrics', 'surgery']",4,RA342
+V31,P139,General,2024-03-20 23:38:29,45,routine check-up,high,2,"['intensive care', 'surgery']",5,RA190
+V32,P449,Pediatrics,2024-08-15 04:15:40,55,routine check-up,high,3,"['surgery', 'intensive care', 'general care']",3,RA4
+V33,P160,Surgery,2024-08-11 14:11:53,93,routine check-up,medium,3,"['pediatrics', 'anesthesia', 'intensive care']",3,RA292
+V34,P275,Surgery,2024-03-02 16:22:38,94,routine check-up,low,2,"['anesthesia', 'intensive care']",4,RA497
+V35,P223,Emergency,2024-01-29 11:17:25,42,emergency,high,3,"['pediatrics', 'general care', 'intensive care']",3,RA15
+V36,P362,Surgery,2024-01-31 15:00:31,64,routine check-up,low,1,['general care'],3,RA177
+V37,P989,Pediatrics,2024-04-09 10:40:51,106,routine check-up,medium,3,"['anesthesia', 'surgery', 'pediatrics']",4,RA128
+V38,P242,General,2024-05-15 19:44:23,39,routine check-up,medium,2,"['general care', 'pediatrics']",4,RA320
+V39,P255,Pediatrics,2024-03-06 05:04:00,50,emergency,medium,2,"['anesthesia', 'surgery']",4,RA126
+V40,P52,General,2024-02-09 14:24:37,30,routine check-up,high,3,"['anesthesia', 'intensive care', 'general care']",3,RA89
+V41,P115,General,2024-04-27 14:25:25,81,emergency,low,3,"['pediatrics', 'anesthesia', 'intensive care']",3,RA374
+V42,P487,General,2024-06-14 19:36:53,106,routine check-up,medium,3,"['pediatrics', 'surgery', 'general care']",4,RA199
+V43,P338,General,2024-02-25 02:40:43,109,routine check-up,medium,1,['general care'],4,RA50
+V44,P274,ICU,2024-06-27 06:35:09,102,emergency,high,3,"['surgery', 'general care', 'anesthesia']",3,RA353
+V45,P122,ICU,2024-06-23 20:52:04,62,emergency,medium,3,"['general care', 'anesthesia', 'intensive care']",4,RA477
+V46,P467,Pediatrics,2024-05-04 04:54:52,33,routine check-up,high,1,['surgery'],4,RA281
+V47,P979,Emergency,2024-08-14 01:28:12,74,routine check-up,high,1,['intensive care'],3,RA402
+V48,P335,ICU,2024-07-21 14:11:55,77,routine check-up,medium,1,['anesthesia'],3,RA318
+V49,P192,General,2024-06-28 19:52:07,99,routine check-up,low,2,"['surgery', 'general care']",4,RA377
+V50,P712,Pediatrics,2024-07-30 07:21:00,37,routine check-up,medium,2,"['general care', 'intensive care']",4,RA227
+V51,P351,ICU,2024-05-17 06:10:44,103,routine check-up,low,1,['surgery'],4,RA468
+V52,P843,Emergency,2024-01-28 08:58:55,35,emergency,medium,2,"['pediatrics', 'surgery']",4,RA48
+V53,P344,Pediatrics,2024-08-09 22:21:45,67,emergency,medium,2,"['pediatrics', 'intensive care']",4,RA386
+V54,P691,Surgery,2024-04-12 02:50:59,69,routine check-up,medium,2,"['general care', 'surgery']",3,RA225
+V55,P645,Surgery,2024-06-20 06:38:20,32,routine check-up,low,1,['intensive care'],3,RA75
+V56,P554,Pediatrics,2024-07-16 22:37:08,31,emergency,medium,2,"['pediatrics', 'anesthesia']",4,RA217
+V57,P193,Surgery,2024-03-22 13:45:51,89,routine check-up,high,3,"['surgery', 'pediatrics', 'intensive care']",4,RA306
+V58,P568,Surgery,2024-03-21 08:29:57,58,emergency,medium,3,"['intensive care', 'surgery', 'anesthesia']",4,RA59
+V59,P218,General,2024-07-07 23:29:03,111,routine check-up,medium,2,"['surgery', 'general care']",3,RA237
+V60,P504,Surgery,2024-05-29 14:46:46,55,emergency,medium,2,"['general care', 'pediatrics']",3,RA208
+V61,P223,ICU,2024-03-28 04:14:36,93,emergency,high,2,"['intensive care', 'pediatrics']",3,RA73
+V62,P30,ICU,2024-01-01 23:26:31,109,emergency,high,2,"['surgery', 'pediatrics']",3,RA144
+V63,P653,General,2024-05-31 02:02:17,85,routine check-up,high,1,['pediatrics'],5,RA348
+V64,P123,General,2024-06-06 20:36:44,93,emergency,medium,2,"['pediatrics', 'surgery']",3,RA363
+V65,P477,Surgery,2024-05-23 03:06:03,63,emergency,high,1,['anesthesia'],5,RA359
+V66,P663,Emergency,2024-08-14 12:16:04,58,routine check-up,low,3,"['intensive care', 'pediatrics', 'general care']",4,RA340
+V67,P606,Emergency,2024-08-10 14:34:48,68,emergency,high,3,"['pediatrics', 'general care', 'intensive care']",3,RA481
+V68,P587,General,2024-03-21 22:24:20,40,routine check-up,low,3,"['surgery', 'pediatrics', 'intensive care']",4,RA428
+V69,P197,General,2024-02-29 03:33:05,38,emergency,low,1,['pediatrics'],3,RA408
+V70,P262,General,2024-01-10 03:08:19,83,emergency,low,2,"['anesthesia', 'general care']",3,RA367
+V71,P276,Surgery,2024-04-14 03:46:11,94,emergency,medium,3,"['general care', 'anesthesia', 'surgery']",4,RA153
+V72,P39,General,2024-05-21 13:01:37,118,emergency,medium,2,"['pediatrics', 'anesthesia']",3,RA118
+V73,P892,Pediatrics,2024-03-11 03:20:46,83,emergency,low,2,"['general care', 'intensive care']",4,RA256
+V74,P141,Emergency,2024-06-20 10:33:03,68,routine check-up,low,2,"['general care', 'anesthesia']",4,RA427
+V75,P910,Emergency,2024-01-11 02:24:26,66,emergency,high,2,"['general care', 'surgery']",3,RA455
+V76,P824,Surgery,2024-07-28 06:19:16,100,emergency,low,2,"['intensive care', 'pediatrics']",3,RA166
+V77,P221,Surgery,2024-06-27 13:19:28,95,routine check-up,high,3,"['intensive care', 'anesthesia', 'general care']",5,RA421
+V78,P551,General,2024-06-22 16:18:53,94,emergency,high,2,"['intensive care', 'general care']",4,RA308
+V79,P471,General,2024-08-08 13:14:16,34,routine check-up,low,2,"['surgery', 'general care']",4,RA286
+V80,P513,Pediatrics,2024-02-16 07:20:14,44,emergency,high,1,['anesthesia'],5,RA112
+V81,P128,ICU,2024-07-04 07:29:33,43,emergency,high,3,"['surgery', 'anesthesia', 'pediatrics']",4,RA190
+V82,P108,General,2024-08-15 17:23:31,97,emergency,low,3,"['pediatrics', 'intensive care', 'surgery']",3,RA46
+V83,P427,Pediatrics,2024-02-12 11:52:47,93,emergency,low,1,['surgery'],4,RA348
+V84,P940,ICU,2024-01-05 01:55:36,84,emergency,low,2,"['surgery', 'pediatrics']",4,RA177
+V85,P709,ICU,2024-02-26 19:09:16,104,emergency,high,2,"['anesthesia', 'intensive care']",5,RA390
+V86,P344,Surgery,2024-06-28 09:36:35,61,emergency,low,2,"['intensive care', 'anesthesia']",3,RA163
+V87,P143,Emergency,2024-05-30 19:42:38,36,emergency,medium,3,"['intensive care', 'anesthesia', 'general care']",4,RA111
+V88,P644,ICU,2024-03-18 14:47:14,36,emergency,low,1,['surgery'],3,RA123
+V89,P571,Emergency,2024-03-29 02:08:58,95,emergency,medium,1,['pediatrics'],4,RA247
+V90,P748,ICU,2024-01-16 22:35:20,47,routine check-up,high,3,"['anesthesia', 'general care', 'intensive care']",3,RA95
+V91,P66,ICU,2024-01-20 08:34:29,32,emergency,medium,3,"['intensive care', 'general care', 'surgery']",3,RA448
+V92,P926,Emergency,2024-07-06 13:08:18,86,emergency,low,2,"['pediatrics', 'general care']",3,RA210
+V93,P157,Pediatrics,2024-08-09 13:46:40,83,emergency,high,3,"['general care', 'surgery', 'anesthesia']",4,RA252
+V94,P866,Pediatrics,2024-01-27 15:52:50,69,emergency,high,1,['general care'],4,RA249
+V95,P210,Pediatrics,2024-04-11 19:17:56,115,emergency,high,3,"['surgery', 'intensive care', 'anesthesia']",4,RA223
+V96,P513,Emergency,2024-04-06 16:52:21,71,emergency,medium,2,"['general care', 'anesthesia']",4,RA252
+V97,P604,Pediatrics,2024-05-22 19:43:20,116,routine check-up,medium,2,"['general care', 'anesthesia']",3,RA427
+V98,P569,Surgery,2024-06-07 17:49:51,80,emergency,high,3,"['intensive care', 'surgery', 'anesthesia']",3,RA203
+V99,P330,Emergency,2024-01-15 06:00:33,111,routine check-up,low,1,['surgery'],3,RA494
+V100,P557,Surgery,2024-04-03 01:41:01,30,routine check-up,high,1,['pediatrics'],5,RA345
+V101,P65,Pediatrics,2024-01-01 17:47:03,41,emergency,low,2,"['anesthesia', 'intensive care']",3,RA107
+V102,P512,Emergency,2024-03-22 07:27:11,59,routine check-up,low,1,['surgery'],3,RA59
+V103,P302,Emergency,2024-08-18 11:50:03,85,routine check-up,medium,1,['intensive care'],4,RA95
+V104,P708,General,2024-05-17 11:50:07,78,routine check-up,medium,1,['anesthesia'],3,RA391
+V105,P110,Pediatrics,2024-05-13 08:40:28,69,routine check-up,medium,2,"['surgery', 'pediatrics']",4,RA300
+V106,P973,Surgery,2024-07-11 12:11:38,109,emergency,high,2,"['intensive care', 'pediatrics']",5,RA10
+V107,P226,Pediatrics,2024-02-10 00:23:03,42,routine check-up,high,1,['pediatrics'],5,RA284
+V108,P181,Pediatrics,2024-04-25 15:59:53,103,routine check-up,low,1,['pediatrics'],4,RA8
+V109,P428,General,2024-01-12 21:16:13,89,routine check-up,low,3,"['anesthesia', 'surgery', 'pediatrics']",3,RA40
+V110,P223,General,2024-07-07 00:47:21,86,emergency,medium,3,"['intensive care', 'anesthesia', 'surgery']",4,RA381
+V111,P385,Pediatrics,2024-07-23 09:11:44,43,routine check-up,low,2,"['pediatrics', 'surgery']",3,RA199
+V112,P644,General,2024-06-03 23:33:02,96,emergency,low,3,"['pediatrics', 'anesthesia', 'intensive care']",3,RA17
+V113,P22,Emergency,2024-04-29 06:08:24,116,routine check-up,high,2,"['surgery', 'general care']",3,RA291
+V114,P843,Emergency,2024-08-13 18:09:28,34,routine check-up,high,3,"['general care', 'surgery', 'intensive care']",4,RA86
+V115,P779,Surgery,2024-07-27 00:23:28,111,routine check-up,medium,3,"['intensive care', 'pediatrics', 'surgery']",4,RA285
+V116,P107,ICU,2024-04-17 06:11:05,45,routine check-up,low,2,"['general care', 'surgery']",4,RA91
+V117,P734,ICU,2024-01-07 08:08:12,76,routine check-up,high,3,"['pediatrics', 'surgery', 'anesthesia']",4,RA362
+V118,P327,Pediatrics,2024-05-16 15:30:26,67,emergency,high,3,"['general care', 'anesthesia', 'intensive care']",4,RA468
+V119,P898,Pediatrics,2024-03-10 19:36:43,83,routine check-up,medium,2,"['pediatrics', 'surgery']",3,RA366
+V120,P248,Emergency,2024-05-27 23:32:49,57,routine check-up,medium,1,['anesthesia'],3,RA395
+V121,P550,Pediatrics,2024-01-11 02:54:07,77,routine check-up,high,2,"['surgery', 'intensive care']",5,RA436
+V122,P599,ICU,2024-03-18 08:50:56,43,routine check-up,low,3,"['pediatrics', 'intensive care', 'anesthesia']",3,RA63
+V123,P617,Emergency,2024-08-23 10:19:08,35,routine check-up,medium,3,"['general care', 'surgery', 'pediatrics']",3,RA119
+V124,P955,General,2024-08-08 14:06:46,120,emergency,low,2,"['general care', 'anesthesia']",4,RA379
+V125,P281,Pediatrics,2024-01-13 18:27:58,37,routine check-up,low,3,"['surgery', 'intensive care', 'general care']",3,RA446
+V126,P351,General,2024-08-08 01:03:21,61,routine check-up,medium,2,"['anesthesia', 'general care']",3,RA406
+V127,P696,Pediatrics,2024-07-01 15:06:08,81,emergency,low,2,"['intensive care', 'surgery']",4,RA204
+V128,P533,Emergency,2024-07-06 20:31:28,54,emergency,high,1,['surgery'],5,RA169
+V129,P753,General,2024-05-14 08:51:57,86,routine check-up,high,1,['intensive care'],4,RA320
+V130,P559,Surgery,2024-03-25 06:54:59,48,emergency,low,1,['general care'],3,RA239
+V131,P762,Pediatrics,2024-05-07 03:31:52,45,emergency,medium,1,['general care'],3,RA310
+V132,P164,Emergency,2024-03-07 04:56:11,110,routine check-up,high,3,"['pediatrics', 'intensive care', 'surgery']",5,RA474
+V133,P758,General,2024-02-11 20:44:28,33,emergency,low,2,"['intensive care', 'surgery']",3,RA114
+V134,P207,Surgery,2024-05-17 13:21:18,52,emergency,medium,1,['anesthesia'],3,RA236
+V135,P948,General,2024-07-11 09:42:14,41,emergency,medium,3,"['surgery', 'anesthesia', 'intensive care']",3,RA189
+V136,P608,Emergency,2024-08-04 00:30:55,90,routine check-up,medium,3,"['anesthesia', 'general care', 'intensive care']",4,RA223
+V137,P371,Emergency,2024-08-14 04:46:06,50,routine check-up,high,2,"['pediatrics', 'anesthesia']",4,RA426
+V138,P811,Emergency,2024-02-05 14:28:07,72,routine check-up,high,3,"['surgery', 'pediatrics', 'anesthesia']",4,RA130
+V139,P274,Surgery,2024-04-07 07:08:08,69,routine check-up,low,2,"['pediatrics', 'anesthesia']",4,RA183
+V140,P602,General,2024-05-04 16:42:56,99,routine check-up,medium,1,['surgery'],4,RA213
+V141,P194,ICU,2024-04-01 08:36:53,74,emergency,low,2,"['intensive care', 'pediatrics']",4,RA97
+V142,P376,Surgery,2024-05-14 21:51:42,54,emergency,medium,1,['pediatrics'],3,RA438
+V143,P705,Surgery,2024-01-19 19:22:05,88,routine check-up,low,2,"['general care', 'pediatrics']",3,RA73
+V144,P882,Pediatrics,2024-06-22 23:47:11,33,routine check-up,high,1,['general care'],4,RA434
+V145,P851,Emergency,2024-06-04 11:48:08,98,emergency,high,2,"['intensive care', 'pediatrics']",4,RA408
+V146,P446,General,2024-08-19 21:20:45,100,routine check-up,low,2,"['anesthesia', 'intensive care']",3,RA299
+V147,P57,Pediatrics,2024-05-17 22:05:02,44,emergency,high,2,"['surgery', 'general care']",4,RA304
+V148,P567,General,2024-02-11 00:56:59,36,routine check-up,low,3,"['intensive care', 'pediatrics', 'surgery']",3,RA428
+V149,P834,ICU,2024-01-31 11:39:03,67,emergency,high,2,"['intensive care', 'anesthesia']",4,RA449
+V150,P905,ICU,2024-07-02 00:46:36,118,routine check-up,low,3,"['surgery', 'general care', 'anesthesia']",4,RA478
+V151,P468,General,2024-03-28 21:37:10,108,routine check-up,medium,3,"['general care', 'surgery', 'pediatrics']",4,RA232
+V152,P738,General,2024-05-22 17:18:56,94,routine check-up,medium,3,"['anesthesia', 'intensive care', 'pediatrics']",4,RA201
+V153,P252,General,2024-02-20 22:48:12,52,routine check-up,low,2,"['intensive care', 'pediatrics']",3,RA283
+V154,P819,General,2024-02-13 16:37:19,78,routine check-up,medium,3,"['surgery', 'anesthesia', 'pediatrics']",4,RA192
+V155,P760,Surgery,2024-07-31 18:42:21,97,routine check-up,low,2,"['surgery', 'anesthesia']",3,RA33
+V156,P953,General,2024-05-10 05:57:22,42,emergency,medium,1,['intensive care'],4,RA304
+V157,P649,Surgery,2024-03-03 09:19:23,43,emergency,medium,1,['surgery'],4,RA447
+V158,P335,Surgery,2024-06-10 19:25:35,75,routine check-up,low,1,['pediatrics'],4,RA156
+V159,P54,ICU,2024-04-09 00:48:10,44,routine check-up,medium,1,['anesthesia'],4,RA223
+V160,P523,Emergency,2024-03-14 17:56:31,66,routine check-up,low,2,"['anesthesia', 'pediatrics']",4,RA332
+V161,P631,Surgery,2024-04-26 20:29:39,66,routine check-up,high,2,"['intensive care', 'pediatrics']",4,RA143
+V162,P925,ICU,2024-02-11 06:22:05,70,routine check-up,low,3,"['intensive care', 'general care', 'anesthesia']",3,RA105
+V163,P659,Emergency,2024-07-01 06:42:44,62,routine check-up,low,3,"['anesthesia', 'surgery', 'general care']",3,RA432
+V164,P31,Pediatrics,2024-08-14 09:19:51,41,routine check-up,low,2,"['pediatrics', 'anesthesia']",4,RA261
+V165,P70,General,2024-06-10 02:48:09,64,emergency,medium,3,"['intensive care', 'general care', 'anesthesia']",3,RA424
+V166,P728,Emergency,2024-06-01 04:47:05,74,routine check-up,medium,3,"['general care', 'intensive care', 'pediatrics']",4,RA122
+V167,P651,ICU,2024-04-03 18:48:16,93,emergency,high,3,"['intensive care', 'anesthesia', 'surgery']",4,RA38
+V168,P197,Surgery,2024-06-14 13:54:05,120,routine check-up,medium,3,"['surgery', 'general care', 'pediatrics']",3,RA161
+V169,P697,Surgery,2024-02-16 06:52:46,106,emergency,medium,2,"['anesthesia', 'intensive care']",3,RA68
+V170,P393,Surgery,2024-07-09 13:31:34,85,emergency,high,3,"['surgery', 'pediatrics', 'general care']",5,RA426
+V171,P304,Emergency,2024-02-14 11:44:20,109,routine check-up,high,3,"['surgery', 'general care', 'anesthesia']",4,RA360
+V172,P211,Pediatrics,2024-03-22 21:15:07,78,emergency,medium,2,"['pediatrics', 'surgery']",4,RA157
+V173,P403,ICU,2024-01-20 21:35:09,42,emergency,medium,2,"['intensive care', 'anesthesia']",3,RA224
+V174,P612,Emergency,2024-01-23 03:50:07,40,emergency,medium,2,"['intensive care', 'anesthesia']",3,RA204
+V175,P137,ICU,2024-01-25 15:30:11,114,emergency,high,1,['general care'],4,RA92
+V176,P932,Pediatrics,2024-06-08 18:59:51,113,emergency,medium,2,"['surgery', 'general care']",3,RA249
+V177,P203,Pediatrics,2024-08-22 02:18:15,60,emergency,low,3,"['surgery', 'anesthesia', 'intensive care']",3,RA144
+V178,P170,Emergency,2024-05-23 05:26:24,34,emergency,high,1,['surgery'],4,RA60
+V179,P344,Pediatrics,2024-04-06 03:08:43,71,emergency,high,3,"['pediatrics', 'surgery', 'intensive care']",3,RA239
+V180,P10,Pediatrics,2024-05-19 06:31:32,68,emergency,high,1,['surgery'],4,RA494
+V181,P317,Pediatrics,2024-05-05 21:46:34,49,emergency,low,3,"['anesthesia', 'intensive care', 'surgery']",3,RA250
+V182,P474,ICU,2024-04-29 05:45:13,71,emergency,medium,1,['general care'],4,RA386
+V183,P700,Emergency,2024-04-05 15:58:44,106,routine check-up,low,1,['anesthesia'],4,RA94
+V184,P615,Pediatrics,2024-02-05 15:38:03,76,routine check-up,low,3,"['anesthesia', 'general care', 'surgery']",4,RA57
+V185,P988,Pediatrics,2024-01-12 00:45:47,86,emergency,high,1,['general care'],4,RA22
+V186,P666,ICU,2024-06-01 12:16:40,46,emergency,medium,3,"['anesthesia', 'general care', 'pediatrics']",3,RA498
+V187,P235,ICU,2024-05-25 04:17:13,46,routine check-up,medium,1,['general care'],4,RA254
+V188,P600,Pediatrics,2024-08-27 23:54:46,87,emergency,low,3,"['pediatrics', 'surgery', 'general care']",3,RA119
+V189,P673,Surgery,2024-06-20 23:16:11,102,emergency,high,1,['general care'],4,RA460
+V190,P331,Surgery,2024-07-14 11:04:06,35,routine check-up,low,1,['general care'],4,RA370
+V191,P997,Emergency,2024-01-03 14:37:24,43,routine check-up,medium,3,"['intensive care', 'general care', 'pediatrics']",3,RA144
+V192,P43,Emergency,2024-06-06 09:40:08,83,emergency,high,2,"['pediatrics', 'intensive care']",5,RA24
+V193,P43,Pediatrics,2024-02-07 10:56:57,96,routine check-up,low,3,"['pediatrics', 'surgery', 'anesthesia']",4,RA51
+V194,P913,Emergency,2024-04-15 07:16:59,84,routine check-up,medium,3,"['surgery', 'anesthesia', 'intensive care']",4,RA70
+V195,P606,Surgery,2024-01-03 17:47:51,108,routine check-up,low,2,"['general care', 'pediatrics']",3,RA235
+V196,P779,General,2024-04-18 11:46:29,77,emergency,medium,3,"['surgery', 'general care', 'intensive care']",3,RA75
+V197,P378,ICU,2024-07-19 02:20:40,108,routine check-up,high,1,['anesthesia'],4,RA161
+V198,P10,Pediatrics,2024-07-15 11:48:43,91,routine check-up,high,2,"['surgery', 'anesthesia']",4,RA61
+V199,P515,Emergency,2024-04-10 10:25:03,88,routine check-up,low,3,"['pediatrics', 'anesthesia', 'intensive care']",3,RA19
+V200,P548,Pediatrics,2024-08-27 10:47:22,54,routine check-up,high,3,"['pediatrics', 'anesthesia', 'general care']",5,RA1
+V201,P616,Emergency,2024-08-20 17:34:38,61,emergency,low,1,['general care'],3,RA347
+V202,P44,ICU,2024-07-04 17:41:30,81,emergency,low,1,['general care'],4,RA492
+V203,P317,ICU,2024-02-18 19:48:04,92,routine check-up,medium,1,['pediatrics'],3,RA149
+V204,P109,Emergency,2024-03-17 10:28:48,86,emergency,high,3,"['anesthesia', 'surgery', 'pediatrics']",3,RA319
+V205,P203,Surgery,2024-08-04 18:13:03,71,emergency,high,2,"['pediatrics', 'surgery']",5,RA100
+V206,P840,ICU,2024-08-04 19:13:14,83,emergency,medium,3,"['general care', 'intensive care', 'pediatrics']",4,RA128
+V207,P685,Surgery,2024-03-03 16:46:02,114,routine check-up,low,3,"['anesthesia', 'intensive care', 'surgery']",4,RA253
+V208,P817,Pediatrics,2024-03-12 21:39:06,86,routine check-up,high,3,"['anesthesia', 'intensive care', 'general care']",4,RA92
+V209,P654,General,2024-02-23 19:06:12,103,emergency,low,2,"['pediatrics', 'anesthesia']",4,RA263
+V210,P872,ICU,2024-05-12 05:37:00,73,emergency,low,3,"['anesthesia', 'surgery', 'intensive care']",3,RA135
+V211,P73,Emergency,2024-05-26 18:26:23,98,routine check-up,high,3,"['anesthesia', 'intensive care', 'general care']",3,RA383
+V212,P379,Pediatrics,2024-04-18 14:09:03,68,routine check-up,high,1,['general care'],3,RA110
+V213,P141,General,2024-05-13 05:17:08,110,routine check-up,medium,1,['surgery'],3,RA228
+V214,P875,Surgery,2024-07-27 03:50:56,62,emergency,medium,3,"['surgery', 'anesthesia', 'pediatrics']",4,RA355
+V215,P721,ICU,2024-04-22 16:03:03,93,emergency,high,3,"['intensive care', 'general care', 'surgery']",5,RA408
+V216,P482,General,2024-05-08 08:39:24,113,routine check-up,medium,1,['intensive care'],4,RA65
+V217,P868,Emergency,2024-06-02 18:04:28,104,emergency,low,3,"['pediatrics', 'intensive care', 'surgery']",3,RA208
+V218,P92,Pediatrics,2024-05-26 10:07:23,37,emergency,medium,3,"['general care', 'anesthesia', 'intensive care']",4,RA136
+V219,P835,Pediatrics,2024-04-28 08:02:52,92,routine check-up,medium,2,"['surgery', 'anesthesia']",4,RA106
+V220,P445,General,2024-07-17 02:19:36,98,routine check-up,low,1,['surgery'],3,RA38
+V221,P460,General,2024-05-02 18:04:30,119,emergency,high,2,"['intensive care', 'anesthesia']",4,RA48
+V222,P795,General,2024-01-25 14:31:53,77,routine check-up,high,1,['pediatrics'],5,RA250
+V223,P94,Surgery,2024-04-27 18:01:30,85,emergency,medium,2,"['general care', 'intensive care']",4,RA290
+V224,P34,ICU,2024-04-10 19:41:37,96,routine check-up,medium,1,['intensive care'],4,RA74
+V225,P810,General,2024-02-28 05:43:05,56,routine check-up,medium,3,"['surgery', 'anesthesia', 'intensive care']",3,RA263
+V226,P939,General,2024-08-20 19:45:44,66,routine check-up,medium,2,"['general care', 'intensive care']",4,RA234
+V227,P325,General,2024-01-20 10:17:40,118,routine check-up,high,1,['pediatrics'],4,RA232
+V228,P243,Emergency,2024-07-13 15:20:11,92,emergency,medium,3,"['anesthesia', 'pediatrics', 'general care']",3,RA304
+V229,P885,General,2024-02-25 03:04:50,67,routine check-up,medium,2,"['pediatrics', 'surgery']",3,RA338
+V230,P244,ICU,2024-07-03 19:42:46,69,routine check-up,low,1,['anesthesia'],3,RA272
+V231,P19,Pediatrics,2024-03-22 22:50:28,36,emergency,low,3,"['anesthesia', 'general care', 'intensive care']",3,RA28
+V232,P681,Emergency,2024-08-16 11:58:38,81,emergency,high,2,"['anesthesia', 'surgery']",4,RA392
+V233,P107,Emergency,2024-08-22 11:45:56,111,emergency,medium,1,['general care'],4,RA54
+V234,P533,Pediatrics,2024-07-18 17:25:27,100,routine check-up,low,1,['anesthesia'],3,RA150
+V235,P245,Pediatrics,2024-08-20 12:30:01,57,emergency,high,1,['intensive care'],4,RA432
+V236,P767,Emergency,2024-07-25 16:30:43,72,emergency,medium,2,"['anesthesia', 'general care']",4,RA352
+V237,P642,General,2024-06-17 03:11:46,98,emergency,medium,2,"['intensive care', 'anesthesia']",3,RA78
+V238,P697,ICU,2024-03-19 20:56:07,44,routine check-up,high,3,"['intensive care', 'general care', 'pediatrics']",5,RA351
+V239,P755,Emergency,2024-05-26 16:06:23,69,routine check-up,low,1,['anesthesia'],3,RA271
+V240,P848,General,2024-03-04 05:42:21,46,routine check-up,low,2,"['general care', 'pediatrics']",4,RA281
+V241,P110,ICU,2024-07-19 10:16:54,107,routine check-up,high,1,['intensive care'],3,RA460
+V242,P969,Pediatrics,2024-04-14 05:43:48,40,emergency,low,3,"['intensive care', 'surgery', 'pediatrics']",4,RA481
+V243,P823,Emergency,2024-02-10 12:56:58,74,routine check-up,high,1,['pediatrics'],4,RA228
+V244,P263,ICU,2024-03-26 04:15:45,79,emergency,high,1,['intensive care'],3,RA12
+V245,P317,Pediatrics,2024-07-25 02:55:29,59,routine check-up,low,3,"['intensive care', 'pediatrics', 'surgery']",3,RA402
+V246,P26,ICU,2024-04-02 01:29:18,66,routine check-up,high,1,['pediatrics'],5,RA370
+V247,P549,Pediatrics,2024-07-14 03:38:06,114,emergency,medium,2,"['surgery', 'anesthesia']",3,RA80
+V248,P271,Pediatrics,2024-02-28 09:53:04,94,emergency,low,3,"['pediatrics', 'surgery', 'intensive care']",3,RA94
+V249,P596,General,2024-03-06 00:58:17,95,emergency,medium,1,['general care'],3,RA5
+V250,P245,ICU,2024-02-18 09:52:24,113,routine check-up,low,1,['intensive care'],4,RA477
+V251,P360,ICU,2024-02-16 14:40:02,50,routine check-up,medium,3,"['general care', 'intensive care', 'surgery']",4,RA168
+V252,P179,Surgery,2024-02-07 13:09:59,113,emergency,high,3,"['surgery', 'anesthesia', 'general care']",5,RA369
+V253,P925,Emergency,2024-02-26 01:51:37,46,routine check-up,medium,2,"['pediatrics', 'surgery']",3,RA391
+V254,P67,Pediatrics,2024-01-17 01:59:16,81,emergency,medium,1,['intensive care'],4,RA447
+V255,P373,Emergency,2024-06-08 20:51:05,93,emergency,medium,1,['general care'],3,RA388
+V256,P574,General,2024-02-08 07:53:50,119,routine check-up,medium,2,"['anesthesia', 'surgery']",3,RA68
+V257,P14,General,2024-04-25 00:21:43,52,routine check-up,low,3,"['intensive care', 'general care', 'pediatrics']",4,RA227
+V258,P120,ICU,2024-05-01 07:19:07,88,emergency,low,3,"['surgery', 'general care', 'intensive care']",3,RA325
+V259,P443,ICU,2024-04-30 06:05:30,75,routine check-up,high,1,['surgery'],3,RA92
+V260,P832,Emergency,2024-07-30 14:21:43,53,emergency,low,2,"['general care', 'anesthesia']",3,RA184
+V261,P104,General,2024-01-18 01:46:47,31,emergency,medium,3,"['surgery', 'intensive care', 'general care']",3,RA214
+V262,P124,General,2024-05-25 23:13:47,102,emergency,medium,1,['intensive care'],3,RA55
+V263,P158,Emergency,2024-07-08 09:03:25,51,emergency,low,3,"['pediatrics', 'surgery', 'anesthesia']",4,RA14
+V264,P284,Pediatrics,2024-07-01 21:48:18,93,routine check-up,high,1,['intensive care'],3,RA245
+V265,P122,Pediatrics,2024-03-22 23:57:12,119,routine check-up,high,2,"['intensive care', 'anesthesia']",3,RA77
+V266,P602,ICU,2024-04-14 01:16:45,88,routine check-up,low,1,['surgery'],3,RA460
+V267,P545,Emergency,2024-03-23 07:59:38,36,emergency,high,2,"['pediatrics', 'intensive care']",3,RA391
+V268,P626,General,2024-06-08 06:37:13,47,routine check-up,high,3,"['pediatrics', 'general care', 'anesthesia']",3,RA119
+V269,P451,General,2024-07-03 05:59:04,97,emergency,low,1,['surgery'],3,RA153
+V270,P736,General,2024-07-10 18:52:33,33,routine check-up,medium,3,"['surgery', 'pediatrics', 'general care']",4,RA481
+V271,P708,General,2024-06-28 06:46:20,88,emergency,low,2,"['anesthesia', 'surgery']",3,RA263
+V272,P468,ICU,2024-03-23 19:41:26,99,emergency,low,2,"['general care', 'intensive care']",3,RA285
+V273,P364,ICU,2024-01-12 21:12:35,90,routine check-up,medium,2,"['anesthesia', 'pediatrics']",3,RA173
+V274,P330,Emergency,2024-05-10 11:44:03,83,routine check-up,low,1,['general care'],4,RA208
+V275,P505,ICU,2024-04-01 23:48:45,115,routine check-up,low,1,['general care'],3,RA317
+V276,P946,Emergency,2024-03-31 03:36:53,38,routine check-up,medium,1,['surgery'],4,RA388
+V277,P41,General,2024-01-16 20:21:11,79,routine check-up,low,1,['intensive care'],3,RA456
+V278,P900,Pediatrics,2024-04-18 18:41:05,34,emergency,low,3,"['intensive care', 'anesthesia', 'general care']",4,RA47
+V279,P444,Pediatrics,2024-06-05 06:44:46,54,emergency,medium,1,['general care'],4,RA296
+V280,P360,Surgery,2024-07-18 01:10:20,59,emergency,high,1,['surgery'],4,RA462
+V281,P748,ICU,2024-07-23 11:13:21,57,routine check-up,high,1,['intensive care'],4,RA271
+V282,P774,ICU,2024-05-06 19:20:21,98,routine check-up,high,3,"['general care', 'anesthesia', 'intensive care']",3,RA398
+V283,P301,ICU,2024-06-01 16:14:46,110,emergency,low,1,['general care'],4,RA119
+V284,P936,Emergency,2024-01-10 17:39:34,107,emergency,medium,1,['pediatrics'],3,RA455
+V285,P375,Pediatrics,2024-07-12 12:04:39,80,emergency,high,2,"['anesthesia', 'pediatrics']",4,RA145
+V286,P150,Surgery,2024-01-09 12:50:50,95,emergency,high,3,"['surgery', 'intensive care', 'general care']",5,RA434
+V287,P403,Pediatrics,2024-04-27 12:16:37,108,routine check-up,medium,3,"['anesthesia', 'pediatrics', 'surgery']",4,RA279
+V288,P542,General,2024-05-23 13:51:24,61,routine check-up,high,1,['surgery'],3,RA84
+V289,P96,Emergency,2024-04-01 00:08:17,60,emergency,low,2,"['intensive care', 'surgery']",4,RA34
+V290,P929,ICU,2024-06-05 04:57:22,93,routine check-up,high,3,"['pediatrics', 'general care', 'anesthesia']",4,RA363
+V291,P478,General,2024-07-25 16:32:06,79,emergency,high,1,['anesthesia'],4,RA399
+V292,P795,Surgery,2024-06-25 22:25:07,103,emergency,medium,2,"['pediatrics', 'anesthesia']",3,RA29
+V293,P626,Pediatrics,2024-01-18 02:27:57,110,emergency,high,1,['intensive care'],4,RA237
+V294,P344,ICU,2024-03-23 03:37:24,32,routine check-up,high,2,"['general care', 'intensive care']",5,RA389
+V295,P250,ICU,2024-08-14 12:58:43,41,emergency,medium,2,"['surgery', 'general care']",4,RA158
+V296,P44,General,2024-06-17 00:00:36,102,routine check-up,high,2,"['anesthesia', 'pediatrics']",5,RA281
+V297,P138,ICU,2024-02-13 10:56:25,92,routine check-up,high,2,"['general care', 'intensive care']",4,RA372
+V298,P278,Emergency,2024-02-29 09:54:43,109,routine check-up,high,3,"['intensive care', 'surgery', 'general care']",3,RA64
+V299,P150,General,2024-08-16 17:41:00,58,routine check-up,high,3,"['general care', 'anesthesia', 'surgery']",4,RA9
+V300,P757,Surgery,2024-08-24 12:29:11,78,emergency,high,2,"['pediatrics', 'anesthesia']",4,RA448
+V301,P838,General,2024-05-08 11:09:07,83,routine check-up,medium,1,['surgery'],4,RA1
+V302,P133,Emergency,2024-03-09 07:53:20,90,emergency,high,3,"['intensive care', 'anesthesia', 'surgery']",5,RA435
+V303,P366,General,2024-03-31 10:19:01,40,routine check-up,low,1,['intensive care'],4,RA430
+V304,P980,General,2024-04-01 07:44:44,96,emergency,medium,1,['anesthesia'],4,RA118
+V305,P269,Pediatrics,2024-01-30 07:37:18,84,emergency,low,1,['pediatrics'],3,RA220
+V306,P751,Surgery,2024-08-06 23:58:30,54,emergency,medium,3,"['intensive care', 'anesthesia', 'surgery']",4,RA32
+V307,P816,ICU,2024-01-17 17:48:04,100,emergency,medium,3,"['general care', 'intensive care', 'pediatrics']",4,RA348
+V308,P863,Surgery,2024-08-01 10:06:59,66,emergency,high,2,"['general care', 'anesthesia']",4,RA337
+V309,P11,ICU,2024-01-30 16:20:04,68,routine check-up,low,2,"['surgery', 'anesthesia']",4,RA95
+V310,P128,Emergency,2024-03-20 13:38:49,97,routine check-up,high,2,"['anesthesia', 'pediatrics']",4,RA332
+V311,P168,Emergency,2024-03-26 02:25:55,76,emergency,high,1,['general care'],3,RA347
+V312,P582,General,2024-01-15 06:06:28,57,routine check-up,high,2,"['anesthesia', 'pediatrics']",3,RA39
+V313,P576,Surgery,2024-08-11 11:59:11,51,routine check-up,low,2,"['anesthesia', 'pediatrics']",3,RA86
+V314,P488,ICU,2024-08-01 00:15:35,31,emergency,medium,3,"['surgery', 'anesthesia', 'pediatrics']",3,RA447
+V315,P260,Pediatrics,2024-07-21 23:52:31,98,emergency,high,2,"['anesthesia', 'surgery']",5,RA37
+V316,P128,General,2024-04-19 19:46:43,40,emergency,low,2,"['surgery', 'anesthesia']",3,RA444
+V317,P904,General,2024-05-28 16:51:58,33,routine check-up,low,1,['general care'],3,RA212
+V318,P590,Pediatrics,2024-02-01 11:29:50,75,emergency,medium,3,"['pediatrics', 'anesthesia', 'general care']",3,RA26
+V319,P760,ICU,2024-07-03 20:51:57,114,emergency,medium,1,['anesthesia'],4,RA33
+V320,P193,General,2024-04-13 04:03:54,86,routine check-up,medium,2,"['pediatrics', 'intensive care']",3,RA224
+V321,P190,Pediatrics,2024-03-06 06:30:43,68,routine check-up,low,3,"['surgery', 'anesthesia', 'pediatrics']",3,RA55
+V322,P157,ICU,2024-02-11 04:48:45,83,routine check-up,high,3,"['anesthesia', 'intensive care', 'pediatrics']",4,RA365
+V323,P594,Emergency,2024-02-08 20:09:30,92,emergency,medium,2,"['anesthesia', 'intensive care']",4,RA295
+V324,P629,Pediatrics,2024-06-29 09:12:02,67,routine check-up,high,3,"['intensive care', 'surgery', 'pediatrics']",4,RA334
+V325,P538,Pediatrics,2024-07-13 22:58:33,42,emergency,low,1,['surgery'],3,RA240
+V326,P333,Pediatrics,2024-07-31 18:38:38,47,routine check-up,medium,2,"['surgery', 'general care']",3,RA441
+V327,P327,ICU,2024-06-09 23:38:26,64,routine check-up,low,2,"['general care', 'surgery']",4,RA178
+V328,P281,Pediatrics,2024-08-25 15:59:55,72,routine check-up,low,3,"['surgery', 'pediatrics', 'anesthesia']",4,RA355
+V329,P797,Pediatrics,2024-06-04 22:25:52,31,emergency,medium,3,"['surgery', 'general care', 'pediatrics']",4,RA197
+V330,P700,ICU,2024-01-16 14:14:29,117,routine check-up,high,3,"['intensive care', 'pediatrics', 'surgery']",3,RA500
+V331,P348,General,2024-05-16 05:26:21,38,routine check-up,medium,3,"['general care', 'surgery', 'anesthesia']",3,RA164
+V332,P11,ICU,2024-07-29 08:54:12,36,routine check-up,high,3,"['surgery', 'intensive care', 'pediatrics']",5,RA312
+V333,P249,Emergency,2024-04-08 22:38:04,70,routine check-up,low,3,"['surgery', 'general care', 'pediatrics']",4,RA3
+V334,P666,General,2024-04-20 08:08:21,85,emergency,high,1,['intensive care'],3,RA27
+V335,P38,ICU,2024-07-22 20:36:57,52,emergency,low,1,['surgery'],3,RA71
+V336,P674,ICU,2024-07-17 01:48:59,95,emergency,high,1,['anesthesia'],4,RA43
+V337,P245,Emergency,2024-01-21 20:24:16,113,routine check-up,medium,2,"['general care', 'intensive care']",3,RA264
+V338,P687,Emergency,2024-01-29 21:20:40,69,routine check-up,low,2,"['pediatrics', 'surgery']",3,RA348
+V339,P120,Pediatrics,2024-02-14 02:31:17,93,routine check-up,low,2,"['general care', 'anesthesia']",3,RA63
+V340,P589,ICU,2024-08-17 23:01:30,106,emergency,low,2,"['intensive care', 'pediatrics']",3,RA148
+V341,P102,Emergency,2024-02-05 23:18:43,52,emergency,medium,3,"['pediatrics', 'intensive care', 'surgery']",4,RA150
+V342,P311,General,2024-06-10 20:34:09,61,emergency,medium,3,"['general care', 'intensive care', 'anesthesia']",3,RA178
+V343,P152,General,2024-08-27 01:14:32,116,routine check-up,high,3,"['general care', 'surgery', 'pediatrics']",3,RA286
+V344,P519,General,2024-07-03 22:02:45,39,emergency,high,2,"['pediatrics', 'general care']",3,RA232
+V345,P233,ICU,2024-01-03 15:41:14,115,routine check-up,medium,1,['intensive care'],3,RA491
+V346,P365,Surgery,2024-01-01 22:47:10,61,emergency,high,3,"['anesthesia', 'pediatrics', 'surgery']",5,RA322
+V347,P381,Emergency,2024-02-17 04:31:30,76,routine check-up,medium,2,"['anesthesia', 'pediatrics']",4,RA152
+V348,P796,ICU,2024-06-25 18:24:04,113,routine check-up,low,1,['intensive care'],3,RA389
+V349,P331,General,2024-07-28 22:12:54,77,routine check-up,high,3,"['general care', 'anesthesia', 'pediatrics']",3,RA303
+V350,P4,Pediatrics,2024-01-21 14:08:35,32,routine check-up,high,1,['general care'],4,RA139
+V351,P484,Pediatrics,2024-01-09 01:25:38,109,emergency,low,2,"['pediatrics', 'surgery']",4,RA277
+V352,P353,General,2024-05-22 10:41:41,41,routine check-up,low,3,"['anesthesia', 'general care', 'surgery']",4,RA84
+V353,P291,General,2024-05-16 03:38:57,35,routine check-up,medium,1,['anesthesia'],3,RA356
+V354,P822,Surgery,2024-06-22 01:36:03,112,routine check-up,medium,1,['surgery'],3,RA492
+V355,P995,Emergency,2024-07-17 05:03:26,65,emergency,medium,3,"['surgery', 'pediatrics', 'anesthesia']",4,RA112
+V356,P294,General,2024-05-20 12:02:37,46,routine check-up,medium,1,['surgery'],3,RA384
+V357,P263,ICU,2024-02-28 20:37:03,83,emergency,medium,3,"['surgery', 'pediatrics', 'intensive care']",4,RA294
+V358,P874,ICU,2024-07-12 00:48:39,106,emergency,low,1,['anesthesia'],4,RA414
+V359,P424,Surgery,2024-08-23 19:09:21,44,emergency,medium,1,['anesthesia'],4,RA372
+V360,P254,General,2024-07-19 18:23:37,37,routine check-up,high,3,"['surgery', 'general care', 'intensive care']",4,RA21
+V361,P960,Emergency,2024-02-26 21:52:41,31,routine check-up,medium,3,"['anesthesia', 'intensive care', 'surgery']",4,RA409
+V362,P645,Surgery,2024-06-27 01:51:43,39,emergency,low,2,"['pediatrics', 'surgery']",3,RA499
+V363,P791,Pediatrics,2024-06-15 15:12:27,50,routine check-up,medium,1,['surgery'],3,RA492
+V364,P254,Emergency,2024-05-09 16:36:27,108,routine check-up,high,3,"['anesthesia', 'pediatrics', 'general care']",5,RA66
+V365,P925,ICU,2024-03-24 02:21:48,90,emergency,low,2,"['intensive care', 'surgery']",3,RA360
+V366,P71,ICU,2024-07-30 18:49:45,100,emergency,medium,1,['surgery'],4,RA84
+V367,P98,General,2024-01-23 10:55:49,80,routine check-up,high,1,['anesthesia'],5,RA442
+V368,P608,General,2024-04-30 00:13:27,88,emergency,medium,2,"['general care', 'pediatrics']",3,RA204
+V369,P471,Emergency,2024-05-23 13:51:30,61,emergency,medium,2,"['surgery', 'intensive care']",3,RA368
+V370,P860,Emergency,2024-08-22 22:19:27,90,routine check-up,medium,2,"['anesthesia', 'intensive care']",3,RA2
+V371,P558,Emergency,2024-01-03 09:58:57,68,emergency,high,1,['pediatrics'],4,RA68
+V372,P547,Emergency,2024-02-25 05:20:31,40,emergency,high,3,"['general care', 'surgery', 'anesthesia']",3,RA60
+V373,P132,General,2024-01-28 09:17:31,108,routine check-up,high,2,"['intensive care', 'pediatrics']",5,RA14
+V374,P461,Emergency,2024-04-28 22:18:38,67,routine check-up,medium,1,['surgery'],3,RA488
+V375,P775,ICU,2024-03-24 19:45:18,37,routine check-up,low,2,"['pediatrics', 'intensive care']",4,RA60
+V376,P648,Pediatrics,2024-06-24 14:05:22,114,routine check-up,medium,3,"['anesthesia', 'pediatrics', 'intensive care']",3,RA177
+V377,P484,Emergency,2024-04-11 12:09:24,90,routine check-up,medium,2,"['pediatrics', 'general care']",3,RA198
+V378,P109,Emergency,2024-03-19 07:00:46,36,emergency,low,1,['surgery'],4,RA455
+V379,P131,Surgery,2024-07-03 10:06:33,55,routine check-up,high,2,"['pediatrics', 'surgery']",4,RA470
+V380,P392,Surgery,2024-08-17 03:49:44,34,routine check-up,high,1,['surgery'],5,RA265
+V381,P66,Emergency,2024-02-17 19:33:39,115,routine check-up,medium,3,"['pediatrics', 'surgery', 'anesthesia']",4,RA478
+V382,P641,ICU,2024-08-21 00:52:44,82,emergency,high,3,"['intensive care', 'pediatrics', 'anesthesia']",4,RA280
+V383,P791,General,2024-05-21 11:59:49,76,emergency,low,1,['pediatrics'],4,RA465
+V384,P685,ICU,2024-03-02 19:30:49,89,emergency,low,3,"['anesthesia', 'general care', 'pediatrics']",3,RA459
+V385,P594,Surgery,2024-01-17 19:52:13,116,routine check-up,low,1,['pediatrics'],4,RA227
+V386,P289,Pediatrics,2024-05-01 14:25:08,56,routine check-up,low,2,"['intensive care', 'general care']",4,RA262
+V387,P299,Surgery,2024-06-16 05:08:14,57,routine check-up,medium,3,"['surgery', 'pediatrics', 'general care']",4,RA363
+V388,P33,Surgery,2024-05-28 05:57:40,104,routine check-up,high,3,"['intensive care', 'pediatrics', 'general care']",5,RA76
+V389,P408,ICU,2024-01-29 23:48:17,118,emergency,low,2,"['general care', 'anesthesia']",4,RA33
+V390,P925,ICU,2024-08-15 18:52:54,89,routine check-up,high,3,"['surgery', 'general care', 'pediatrics']",5,RA320
+V391,P684,General,2024-02-20 03:09:51,54,emergency,high,1,['anesthesia'],3,RA446
+V392,P159,General,2024-07-22 17:34:47,115,routine check-up,medium,1,['intensive care'],3,RA20
+V393,P750,ICU,2024-07-11 01:35:15,119,emergency,high,3,"['surgery', 'anesthesia', 'general care']",5,RA190
+V394,P136,ICU,2024-03-07 02:50:33,61,emergency,high,1,['intensive care'],5,RA30
+V395,P642,Surgery,2024-02-29 04:49:16,82,emergency,high,3,"['anesthesia', 'intensive care', 'pediatrics']",3,RA177
+V396,P713,General,2024-05-06 00:43:07,111,routine check-up,high,3,"['surgery', 'intensive care', 'pediatrics']",4,RA44
+V397,P781,Surgery,2024-05-28 15:37:50,50,emergency,low,1,['general care'],3,RA311
+V398,P936,Emergency,2024-02-26 12:23:27,109,routine check-up,low,1,['anesthesia'],4,RA369
+V399,P794,Pediatrics,2024-03-10 22:45:28,30,emergency,medium,2,"['surgery', 'pediatrics']",4,RA82
+V400,P86,Pediatrics,2024-01-05 20:58:55,84,emergency,medium,2,"['pediatrics', 'intensive care']",4,RA432
+V401,P869,ICU,2024-06-26 09:44:57,66,emergency,low,2,"['intensive care', 'anesthesia']",3,RA421
+V402,P246,Emergency,2024-03-10 12:48:36,118,routine check-up,high,3,"['surgery', 'general care', 'anesthesia']",4,RA102
+V403,P119,Surgery,2024-07-06 05:15:30,74,routine check-up,low,3,"['pediatrics', 'surgery', 'intensive care']",4,RA456
+V404,P471,Emergency,2024-05-21 22:42:06,75,routine check-up,low,3,"['surgery', 'anesthesia', 'intensive care']",4,RA354
+V405,P270,Surgery,2024-03-13 12:15:36,71,routine check-up,low,2,"['pediatrics', 'surgery']",4,RA445
+V406,P740,General,2024-03-09 20:12:03,115,emergency,medium,3,"['anesthesia', 'general care', 'pediatrics']",3,RA326
+V407,P793,General,2024-02-03 04:15:07,82,routine check-up,low,1,['surgery'],4,RA1
+V408,P441,Surgery,2024-05-29 04:45:07,101,emergency,low,3,"['general care', 'anesthesia', 'surgery']",3,RA120
+V409,P168,General,2024-06-25 12:58:53,86,routine check-up,medium,1,['pediatrics'],3,RA129
+V410,P614,General,2024-05-08 13:42:26,59,emergency,medium,3,"['general care', 'surgery', 'anesthesia']",3,RA281
+V411,P424,Emergency,2024-08-28 00:26:07,88,routine check-up,medium,2,"['intensive care', 'surgery']",4,RA412
+V412,P253,General,2024-08-17 12:22:03,104,emergency,low,2,"['intensive care', 'general care']",4,RA353
+V413,P720,General,2024-05-02 08:17:38,92,emergency,low,1,['general care'],4,RA95
+V414,P546,General,2024-01-24 18:50:43,39,emergency,high,1,['general care'],4,RA347
+V415,P875,General,2024-01-30 14:26:05,104,routine check-up,low,3,"['surgery', 'anesthesia', 'general care']",4,RA490
+V416,P237,ICU,2024-02-13 13:31:40,38,routine check-up,low,1,['pediatrics'],4,RA497
+V417,P766,Surgery,2024-03-01 20:05:11,119,emergency,high,2,"['anesthesia', 'intensive care']",5,RA191
+V418,P547,ICU,2024-07-02 21:59:06,115,routine check-up,low,2,"['surgery', 'general care']",3,RA254
+V419,P924,General,2024-05-17 12:58:24,68,emergency,high,1,['anesthesia'],4,RA119
+V420,P650,Surgery,2024-07-15 04:08:54,106,routine check-up,medium,3,"['pediatrics', 'intensive care', 'surgery']",4,RA488
+V421,P41,ICU,2024-07-31 22:47:43,105,routine check-up,medium,3,"['general care', 'intensive care', 'surgery']",3,RA258
+V422,P952,General,2024-06-24 18:01:58,31,routine check-up,high,3,"['intensive care', 'surgery', 'anesthesia']",4,RA171
+V423,P517,General,2024-01-26 12:28:45,50,emergency,low,3,"['pediatrics', 'anesthesia', 'general care']",3,RA271
+V424,P727,ICU,2024-05-04 10:27:27,104,routine check-up,high,2,"['general care', 'intensive care']",3,RA75
+V425,P353,General,2024-03-28 07:07:57,109,routine check-up,medium,1,['surgery'],4,RA130
+V426,P110,Pediatrics,2024-07-15 06:16:42,95,emergency,low,3,"['general care', 'intensive care', 'anesthesia']",3,RA301
+V427,P664,General,2024-08-20 02:10:59,87,emergency,medium,1,['anesthesia'],3,RA226
+V428,P59,General,2024-01-19 22:17:38,114,routine check-up,high,2,"['general care', 'anesthesia']",4,RA286
+V429,P557,Surgery,2024-02-07 09:44:14,59,emergency,low,3,"['intensive care', 'pediatrics', 'surgery']",3,RA226
+V430,P899,ICU,2024-06-14 03:24:03,41,routine check-up,low,2,"['pediatrics', 'anesthesia']",3,RA280
+V431,P36,ICU,2024-08-18 19:00:15,74,emergency,high,2,"['surgery', 'pediatrics']",4,RA283
+V432,P925,Pediatrics,2024-05-13 00:47:34,68,routine check-up,high,3,"['general care', 'anesthesia', 'pediatrics']",5,RA473
+V433,P194,ICU,2024-01-28 12:35:05,85,routine check-up,high,3,"['anesthesia', 'intensive care', 'general care']",5,RA24
+V434,P740,Emergency,2024-05-02 19:39:44,34,emergency,high,1,['intensive care'],5,RA324
+V435,P252,ICU,2024-07-14 23:42:59,37,emergency,high,1,['general care'],3,RA84
+V436,P64,Emergency,2024-07-08 19:53:07,113,routine check-up,medium,2,"['pediatrics', 'general care']",4,RA483
+V437,P764,Emergency,2024-04-25 13:54:22,117,emergency,high,2,"['general care', 'anesthesia']",4,RA183
+V438,P341,Surgery,2024-01-31 07:29:38,79,routine check-up,low,3,"['intensive care', 'pediatrics', 'general care']",4,RA270
+V439,P868,Emergency,2024-03-18 13:21:43,81,routine check-up,medium,3,"['surgery', 'general care', 'pediatrics']",4,RA244
+V440,P784,General,2024-02-14 02:13:24,47,routine check-up,medium,2,"['surgery', 'intensive care']",4,RA55
+V441,P586,Surgery,2024-01-19 02:33:01,64,emergency,medium,3,"['general care', 'pediatrics', 'intensive care']",3,RA313
+V442,P13,Surgery,2024-03-05 00:40:26,115,routine check-up,medium,1,['pediatrics'],4,RA101
+V443,P780,Surgery,2024-07-14 02:11:59,43,routine check-up,high,1,['intensive care'],4,RA446
+V444,P928,ICU,2024-05-30 19:21:33,70,emergency,medium,3,"['pediatrics', 'anesthesia', 'surgery']",3,RA342
+V445,P694,Pediatrics,2024-03-01 15:06:49,101,emergency,high,2,"['intensive care', 'surgery']",5,RA134
+V446,P876,Pediatrics,2024-02-27 18:48:43,60,emergency,low,2,"['anesthesia', 'surgery']",3,RA500
+V447,P483,Emergency,2024-05-01 01:57:49,108,routine check-up,low,3,"['pediatrics', 'general care', 'anesthesia']",4,RA481
+V448,P971,Pediatrics,2024-07-17 02:12:42,112,emergency,low,1,['anesthesia'],4,RA431
+V449,P153,Surgery,2024-05-22 08:40:46,108,emergency,medium,2,"['anesthesia', 'general care']",3,RA318
+V450,P279,Pediatrics,2024-04-05 09:50:29,37,routine check-up,medium,1,['surgery'],3,RA202
+V451,P756,Pediatrics,2024-02-11 11:52:03,35,routine check-up,medium,3,"['anesthesia', 'general care', 'pediatrics']",4,RA71
+V452,P643,Emergency,2024-02-13 23:17:30,99,emergency,high,3,"['general care', 'surgery', 'anesthesia']",5,RA192
+V453,P325,General,2024-07-29 14:12:00,72,routine check-up,medium,1,['surgery'],4,RA162
+V454,P872,Emergency,2024-07-31 06:12:06,75,routine check-up,high,3,"['surgery', 'general care', 'anesthesia']",3,RA329
+V455,P680,Surgery,2024-07-06 22:40:24,89,emergency,low,3,"['general care', 'pediatrics', 'surgery']",4,RA330
+V456,P561,Emergency,2024-04-06 21:59:06,64,routine check-up,medium,1,['general care'],4,RA83
+V457,P864,ICU,2024-04-23 03:00:15,60,emergency,high,1,['anesthesia'],3,RA343
+V458,P556,Emergency,2024-04-26 05:03:34,80,emergency,high,2,"['anesthesia', 'pediatrics']",3,RA414
+V459,P365,Emergency,2024-06-06 12:12:01,69,emergency,low,1,['general care'],4,RA66
+V460,P330,ICU,2024-08-15 02:34:13,55,routine check-up,low,1,['anesthesia'],3,RA492
+V461,P278,Surgery,2024-05-21 11:47:03,85,routine check-up,high,2,"['surgery', 'anesthesia']",5,RA172
+V462,P576,Pediatrics,2024-03-17 02:57:27,90,routine check-up,medium,2,"['surgery', 'intensive care']",3,RA348
+V463,P406,ICU,2024-01-20 18:00:11,102,emergency,medium,1,['anesthesia'],4,RA485
+V464,P905,Emergency,2024-07-26 10:18:39,50,emergency,low,3,"['surgery', 'anesthesia', 'pediatrics']",3,RA476
+V465,P713,General,2024-07-26 16:52:49,109,routine check-up,low,1,['general care'],3,RA465
+V466,P133,General,2024-03-05 14:05:58,86,emergency,medium,1,['pediatrics'],4,RA212
+V467,P362,Surgery,2024-07-09 04:06:21,63,emergency,high,3,"['intensive care', 'general care', 'pediatrics']",3,RA54
+V468,P554,General,2024-07-24 01:07:18,118,emergency,medium,3,"['anesthesia', 'surgery', 'intensive care']",4,RA83
+V469,P691,General,2024-02-06 22:55:12,52,emergency,high,3,"['surgery', 'intensive care', 'anesthesia']",5,RA135
+V470,P567,Surgery,2024-08-21 03:17:15,110,emergency,high,1,['pediatrics'],5,RA203
+V471,P47,Emergency,2024-01-31 19:36:57,75,routine check-up,medium,3,"['general care', 'pediatrics', 'anesthesia']",3,RA137
+V472,P431,Emergency,2024-07-18 10:33:03,33,routine check-up,medium,1,['pediatrics'],4,RA159
+V473,P137,Pediatrics,2024-01-06 19:51:58,80,emergency,medium,1,['anesthesia'],4,RA87
+V474,P600,Surgery,2024-08-06 16:40:22,37,emergency,medium,2,"['intensive care', 'general care']",4,RA2
+V475,P524,ICU,2024-02-24 10:17:02,53,emergency,low,1,['anesthesia'],4,RA115
+V476,P708,ICU,2024-05-04 14:20:25,87,routine check-up,high,1,['anesthesia'],4,RA21
+V477,P679,ICU,2024-07-04 01:27:26,50,routine check-up,low,3,"['anesthesia', 'pediatrics', 'surgery']",3,RA31
+V478,P169,Surgery,2024-04-25 20:41:59,96,emergency,high,1,['intensive care'],3,RA63
+V479,P466,ICU,2024-02-15 08:36:18,104,routine check-up,medium,3,"['surgery', 'anesthesia', 'pediatrics']",3,RA443
+V480,P661,ICU,2024-08-01 15:24:55,36,routine check-up,low,3,"['surgery', 'pediatrics', 'intensive care']",3,RA445
+V481,P729,Surgery,2024-04-20 18:38:40,40,routine check-up,high,2,"['intensive care', 'anesthesia']",4,RA11
+V482,P242,General,2024-02-09 23:04:29,59,emergency,high,1,['pediatrics'],4,RA75
+V483,P876,General,2024-06-07 01:12:49,105,emergency,high,3,"['pediatrics', 'intensive care', 'surgery']",4,RA77
+V484,P883,General,2024-03-22 05:22:26,44,emergency,high,2,"['surgery', 'general care']",3,RA184
+V485,P581,ICU,2024-07-02 12:12:38,30,emergency,low,3,"['surgery', 'intensive care', 'anesthesia']",3,RA203
+V486,P169,Pediatrics,2024-02-25 15:52:30,39,emergency,low,1,['anesthesia'],3,RA311
+V487,P241,Emergency,2024-08-07 12:42:51,76,emergency,low,2,"['intensive care', 'anesthesia']",3,RA310
+V488,P411,General,2024-02-18 21:22:01,69,routine check-up,low,1,['anesthesia'],4,RA91
+V489,P147,Emergency,2024-08-18 23:49:31,93,routine check-up,medium,1,['anesthesia'],4,RA217
+V490,P135,Surgery,2024-01-16 09:19:06,114,emergency,medium,1,['pediatrics'],4,RA70
+V491,P86,Surgery,2024-06-20 17:02:12,46,routine check-up,medium,3,"['pediatrics', 'intensive care', 'general care']",3,RA72
+V492,P49,General,2024-08-07 01:29:12,95,emergency,low,1,['anesthesia'],3,RA243
+V493,P549,Emergency,2024-02-23 23:04:44,117,routine check-up,high,2,"['pediatrics', 'intensive care']",5,RA201
+V494,P980,ICU,2024-06-02 04:22:41,68,emergency,high,2,"['pediatrics', 'surgery']",4,RA195
+V495,P289,ICU,2024-06-15 11:12:08,70,routine check-up,high,1,['anesthesia'],3,RA370
+V496,P567,Surgery,2024-02-19 15:38:25,112,routine check-up,high,1,['intensive care'],5,RA91
+V497,P222,General,2024-02-04 20:10:36,104,routine check-up,high,1,['pediatrics'],4,RA187
+V498,P30,Surgery,2024-02-15 14:02:07,76,routine check-up,medium,3,"['intensive care', 'pediatrics', 'general care']",3,RA302
+V499,P89,ICU,2024-06-20 20:52:01,102,routine check-up,low,3,"['surgery', 'pediatrics', 'general care']",4,RA4
+V500,P422,General,2024-07-28 01:22:01,55,emergency,low,1,['general care'],4,RA82
+V501,P211,Surgery,2024-01-01 03:15:45,77,routine check-up,medium,2,"['surgery', 'anesthesia']",4,RA279
+V502,P845,Pediatrics,2024-02-18 03:39:16,77,routine check-up,high,2,"['intensive care', 'surgery']",4,RA375
+V503,P676,Emergency,2024-01-19 13:55:05,42,routine check-up,high,3,"['general care', 'intensive care', 'anesthesia']",3,RA326
+V504,P411,Surgery,2024-03-21 16:24:15,116,routine check-up,low,1,['general care'],4,RA251
+V505,P514,ICU,2024-06-04 02:15:08,120,routine check-up,high,1,['pediatrics'],5,RA485
+V506,P185,Emergency,2024-07-24 23:32:03,91,emergency,medium,1,['surgery'],3,RA436
+V507,P563,Emergency,2024-02-17 14:24:22,40,routine check-up,medium,1,['intensive care'],4,RA230
+V508,P930,ICU,2024-01-13 16:03:27,75,emergency,medium,1,['anesthesia'],4,RA153
+V509,P117,Surgery,2024-08-06 14:15:18,100,emergency,medium,3,"['surgery', 'general care', 'intensive care']",4,RA330
+V510,P597,General,2024-07-30 19:18:12,73,routine check-up,low,3,"['intensive care', 'pediatrics', 'general care']",3,RA378
+V511,P262,Emergency,2024-07-25 12:10:35,110,emergency,medium,2,"['surgery', 'intensive care']",3,RA423
+V512,P170,ICU,2024-04-04 00:17:28,43,emergency,medium,2,"['intensive care', 'general care']",4,RA111
+V513,P984,General,2024-05-22 02:30:16,76,emergency,low,1,['pediatrics'],3,RA225
+V514,P944,Emergency,2024-01-12 08:29:17,70,routine check-up,medium,3,"['pediatrics', 'anesthesia', 'surgery']",4,RA4
+V515,P477,General,2024-04-10 06:32:28,108,emergency,medium,1,['intensive care'],3,RA110
+V516,P465,General,2024-01-23 20:36:31,47,emergency,high,1,['pediatrics'],3,RA92
+V517,P637,General,2024-03-12 09:23:14,95,emergency,medium,3,"['pediatrics', 'intensive care', 'surgery']",3,RA198
+V518,P747,Emergency,2024-02-19 07:40:56,33,emergency,high,1,['intensive care'],5,RA420
+V519,P799,Pediatrics,2024-02-29 16:42:31,89,emergency,high,2,"['general care', 'intensive care']",3,RA259
+V520,P87,Emergency,2024-06-05 03:28:09,99,routine check-up,high,2,"['general care', 'pediatrics']",5,RA420
+V521,P844,General,2024-04-19 11:01:04,89,emergency,medium,1,['anesthesia'],3,RA269
+V522,P695,ICU,2024-04-19 10:52:55,38,routine check-up,high,3,"['general care', 'anesthesia', 'intensive care']",4,RA462
+V523,P539,Emergency,2024-01-05 03:08:39,111,routine check-up,medium,2,"['general care', 'surgery']",3,RA393
+V524,P336,General,2024-03-10 03:32:56,42,routine check-up,low,1,['general care'],3,RA319
+V525,P202,Pediatrics,2024-01-26 05:13:54,115,emergency,high,1,['anesthesia'],5,RA289
+V526,P337,ICU,2024-04-23 19:19:00,83,routine check-up,low,1,['surgery'],3,RA468
+V527,P481,Surgery,2024-02-03 08:25:47,94,routine check-up,low,1,['pediatrics'],4,RA58
+V528,P172,Surgery,2024-06-20 15:46:24,107,emergency,high,1,['surgery'],5,RA350
+V529,P413,Pediatrics,2024-06-08 05:38:53,90,routine check-up,high,2,"['anesthesia', 'general care']",4,RA474
+V530,P539,General,2024-08-09 14:26:17,100,routine check-up,medium,2,"['anesthesia', 'general care']",4,RA195
+V531,P309,ICU,2024-06-04 09:30:25,62,emergency,medium,1,['general care'],3,RA60
+V532,P520,General,2024-08-17 07:25:15,90,routine check-up,high,1,['anesthesia'],3,RA494
+V533,P644,ICU,2024-03-13 10:00:47,120,routine check-up,low,1,['surgery'],3,RA483
+V534,P335,Emergency,2024-08-01 17:10:39,84,routine check-up,low,2,"['intensive care', 'general care']",4,RA493
+V535,P938,Surgery,2024-07-20 10:07:53,47,routine check-up,medium,3,"['anesthesia', 'pediatrics', 'intensive care']",4,RA143
+V536,P484,ICU,2024-08-12 02:56:28,54,emergency,medium,1,['anesthesia'],4,RA382
+V537,P137,Emergency,2024-04-26 01:14:28,87,routine check-up,low,1,['intensive care'],3,RA411
+V538,P763,General,2024-01-05 14:13:23,76,routine check-up,high,2,"['general care', 'intensive care']",4,RA117
+V539,P941,Pediatrics,2024-05-02 20:29:43,101,routine check-up,low,2,"['intensive care', 'general care']",3,RA398
+V540,P109,ICU,2024-08-15 13:03:21,69,routine check-up,medium,1,['surgery'],3,RA200
+V541,P578,Surgery,2024-07-06 15:21:59,81,routine check-up,high,3,"['general care', 'surgery', 'intensive care']",4,RA110
+V542,P152,ICU,2024-06-27 09:48:11,37,emergency,high,3,"['general care', 'intensive care', 'pediatrics']",3,RA366
+V543,P334,ICU,2024-08-16 10:23:15,96,routine check-up,low,2,"['general care', 'surgery']",3,RA88
+V544,P959,ICU,2024-05-13 15:15:42,41,routine check-up,medium,3,"['anesthesia', 'pediatrics', 'surgery']",4,RA390
+V545,P170,General,2024-02-13 14:26:03,31,emergency,medium,2,"['anesthesia', 'general care']",3,RA314
+V546,P845,ICU,2024-05-07 08:57:43,51,emergency,low,1,['anesthesia'],4,RA279
+V547,P680,ICU,2024-05-07 17:40:44,92,routine check-up,medium,3,"['surgery', 'intensive care', 'anesthesia']",3,RA145
+V548,P969,General,2024-05-10 16:05:33,64,emergency,medium,1,['anesthesia'],3,RA229
+V549,P108,Pediatrics,2024-03-21 17:39:18,46,routine check-up,low,3,"['surgery', 'anesthesia', 'pediatrics']",3,RA146
+V550,P503,Emergency,2024-03-25 11:00:39,52,emergency,high,3,"['surgery', 'general care', 'anesthesia']",4,RA75
+V551,P902,ICU,2024-05-08 22:33:54,70,emergency,high,1,['anesthesia'],3,RA261
+V552,P969,ICU,2024-04-26 07:17:03,117,emergency,low,2,"['pediatrics', 'intensive care']",3,RA143
+V553,P212,Surgery,2024-07-25 14:30:43,114,routine check-up,medium,2,"['anesthesia', 'intensive care']",3,RA314
+V554,P241,Emergency,2024-08-18 11:29:31,109,routine check-up,high,2,"['intensive care', 'anesthesia']",4,RA100
+V555,P277,General,2024-05-22 16:59:07,61,routine check-up,medium,2,"['pediatrics', 'surgery']",4,RA330
+V556,P533,Emergency,2024-02-19 01:00:41,78,routine check-up,medium,1,['general care'],4,RA466
+V557,P676,ICU,2024-07-01 10:07:00,45,emergency,low,3,"['general care', 'pediatrics', 'intensive care']",4,RA58
+V558,P580,ICU,2024-08-11 21:49:29,102,emergency,high,3,"['general care', 'intensive care', 'pediatrics']",3,RA290
+V559,P920,Pediatrics,2024-03-08 08:34:07,93,routine check-up,high,2,"['intensive care', 'surgery']",3,RA390
+V560,P90,ICU,2024-06-12 06:58:07,58,emergency,low,1,['intensive care'],3,RA400
+V561,P394,Pediatrics,2024-01-15 08:47:07,65,emergency,high,1,['general care'],3,RA387
+V562,P880,Surgery,2024-03-30 16:08:15,90,routine check-up,low,3,"['anesthesia', 'general care', 'pediatrics']",4,RA321
+V563,P886,Emergency,2024-04-30 09:14:53,98,routine check-up,high,3,"['anesthesia', 'pediatrics', 'surgery']",5,RA134
+V564,P36,ICU,2024-07-31 01:39:35,64,emergency,low,1,['anesthesia'],4,RA120
+V565,P995,Pediatrics,2024-05-25 21:59:01,72,emergency,low,1,['surgery'],4,RA319
+V566,P358,General,2024-07-08 17:06:29,44,emergency,low,1,['surgery'],3,RA182
+V567,P766,Surgery,2024-08-12 20:20:37,101,emergency,high,1,['pediatrics'],5,RA240
+V568,P297,Surgery,2024-07-23 04:57:43,63,routine check-up,low,2,"['intensive care', 'pediatrics']",4,RA274
+V569,P660,Surgery,2024-03-11 12:11:38,106,routine check-up,medium,3,"['surgery', 'anesthesia', 'general care']",3,RA240
+V570,P177,General,2024-04-15 20:22:04,47,routine check-up,medium,3,"['intensive care', 'anesthesia', 'surgery']",3,RA483
+V571,P110,ICU,2024-07-25 07:58:45,76,emergency,medium,3,"['pediatrics', 'intensive care', 'surgery']",3,RA349
+V572,P422,Surgery,2024-03-14 05:01:22,110,routine check-up,medium,1,['intensive care'],3,RA319
+V573,P777,ICU,2024-02-25 14:00:49,111,emergency,low,1,['intensive care'],3,RA404
+V574,P867,ICU,2024-02-18 18:20:57,60,routine check-up,high,1,['surgery'],3,RA354
+V575,P426,General,2024-06-30 00:42:27,37,routine check-up,high,3,"['general care', 'pediatrics', 'anesthesia']",5,RA251
+V576,P74,ICU,2024-05-30 18:54:27,103,routine check-up,high,2,"['surgery', 'general care']",3,RA398
+V577,P45,General,2024-04-14 09:17:10,106,routine check-up,low,2,"['surgery', 'general care']",4,RA287
+V578,P867,Pediatrics,2024-08-20 08:35:39,60,routine check-up,low,3,"['general care', 'pediatrics', 'surgery']",4,RA357
+V579,P78,General,2024-05-18 19:02:55,78,routine check-up,high,2,"['general care', 'intensive care']",4,RA298
+V580,P928,ICU,2024-03-23 21:09:06,57,routine check-up,high,1,['intensive care'],3,RA56
+V581,P253,General,2024-01-04 08:52:25,67,emergency,medium,3,"['general care', 'intensive care', 'pediatrics']",4,RA209
+V582,P628,Surgery,2024-05-09 17:44:52,65,emergency,medium,3,"['general care', 'intensive care', 'pediatrics']",4,RA273
+V583,P670,Surgery,2024-03-23 08:18:42,48,routine check-up,medium,3,"['anesthesia', 'intensive care', 'surgery']",3,RA155
+V584,P390,Emergency,2024-01-26 05:53:57,54,emergency,low,2,"['surgery', 'pediatrics']",3,RA339
+V585,P88,Pediatrics,2024-01-05 11:15:27,104,routine check-up,high,3,"['pediatrics', 'surgery', 'anesthesia']",4,RA203
+V586,P545,Pediatrics,2024-04-17 14:37:36,110,emergency,low,3,"['anesthesia', 'general care', 'pediatrics']",4,RA392
+V587,P221,Surgery,2024-01-06 03:21:37,33,routine check-up,low,3,"['surgery', 'anesthesia', 'intensive care']",4,RA268
+V588,P975,ICU,2024-08-04 17:30:40,57,routine check-up,low,2,"['surgery', 'general care']",4,RA464
+V589,P97,General,2024-06-20 18:01:50,100,routine check-up,high,3,"['general care', 'anesthesia', 'intensive care']",5,RA86
+V590,P168,Pediatrics,2024-02-04 01:15:28,30,emergency,high,3,"['intensive care', 'anesthesia', 'general care']",3,RA214
+V591,P200,ICU,2024-01-08 07:15:44,90,routine check-up,high,2,"['surgery', 'intensive care']",4,RA205
+V592,P196,General,2024-08-13 00:45:53,84,emergency,high,2,"['intensive care', 'surgery']",3,RA87
+V593,P978,Emergency,2024-03-13 09:51:35,53,routine check-up,low,1,['general care'],4,RA6
+V594,P909,ICU,2024-02-05 21:59:42,73,emergency,medium,3,"['intensive care', 'general care', 'surgery']",3,RA191
+V595,P816,Surgery,2024-06-26 08:42:02,83,emergency,medium,1,['pediatrics'],3,RA195
+V596,P344,ICU,2024-07-07 11:49:15,45,emergency,high,2,"['surgery', 'intensive care']",4,RA122
+V597,P535,ICU,2024-07-06 18:34:15,101,emergency,medium,2,"['general care', 'pediatrics']",3,RA310
+V598,P104,Emergency,2024-03-27 09:29:12,35,emergency,high,2,"['pediatrics', 'surgery']",4,RA303
+V599,P409,Surgery,2024-02-09 05:58:11,106,emergency,low,1,['anesthesia'],3,RA67
+V600,P586,ICU,2024-05-13 07:28:16,67,routine check-up,high,2,"['intensive care', 'general care']",3,RA389
+V601,P155,Surgery,2024-01-09 13:10:20,62,routine check-up,high,1,['anesthesia'],4,RA192
+V602,P359,ICU,2024-07-10 17:52:33,86,routine check-up,low,3,"['surgery', 'pediatrics', 'intensive care']",4,RA396
+V603,P151,Surgery,2024-06-01 16:37:51,98,routine check-up,medium,3,"['surgery', 'anesthesia', 'intensive care']",3,RA97
+V604,P363,General,2024-04-08 08:01:19,69,routine check-up,medium,3,"['pediatrics', 'anesthesia', 'surgery']",4,RA262
+V605,P894,Pediatrics,2024-08-22 10:25:51,69,emergency,low,2,"['anesthesia', 'intensive care']",3,RA114
+V606,P438,ICU,2024-04-02 15:46:30,60,emergency,high,1,['intensive care'],5,RA457
+V607,P926,ICU,2024-06-19 02:24:33,105,routine check-up,medium,2,"['general care', 'pediatrics']",4,RA192
+V608,P609,ICU,2024-06-23 00:59:59,30,routine check-up,medium,2,"['surgery', 'intensive care']",4,RA406
+V609,P912,ICU,2024-03-11 18:53:54,75,routine check-up,medium,3,"['pediatrics', 'intensive care', 'anesthesia']",4,RA406
+V610,P407,Surgery,2024-05-23 22:16:38,88,emergency,high,1,['intensive care'],3,RA494
+V611,P929,Pediatrics,2024-01-09 11:14:44,68,routine check-up,high,3,"['pediatrics', 'anesthesia', 'surgery']",5,RA342
+V612,P924,General,2024-01-02 09:38:45,63,emergency,high,3,"['intensive care', 'anesthesia', 'general care']",5,RA219
+V613,P201,Emergency,2024-08-03 05:41:16,52,routine check-up,medium,2,"['surgery', 'intensive care']",3,RA100
+V614,P825,Pediatrics,2024-06-02 12:09:46,116,routine check-up,medium,2,"['general care', 'surgery']",4,RA56
+V615,P105,Pediatrics,2024-03-07 04:22:12,45,routine check-up,high,3,"['anesthesia', 'pediatrics', 'surgery']",3,RA91
+V616,P394,ICU,2024-02-13 15:09:18,113,emergency,high,2,"['anesthesia', 'pediatrics']",3,RA470
+V617,P904,General,2024-02-18 11:37:26,71,emergency,medium,2,"['anesthesia', 'intensive care']",3,RA424
+V618,P388,Emergency,2024-06-03 03:23:08,111,emergency,high,2,"['intensive care', 'anesthesia']",5,RA235
+V619,P498,General,2024-03-31 17:17:19,52,routine check-up,high,1,['anesthesia'],5,RA233
+V620,P961,Surgery,2024-03-26 06:14:08,74,emergency,high,1,['anesthesia'],4,RA352
+V621,P863,Emergency,2024-06-10 15:52:37,64,emergency,high,2,"['anesthesia', 'general care']",5,RA20
+V622,P557,Pediatrics,2024-06-01 00:49:57,58,routine check-up,high,2,"['general care', 'intensive care']",3,RA388
+V623,P117,Emergency,2024-01-04 15:00:27,60,routine check-up,high,3,"['pediatrics', 'anesthesia', 'general care']",3,RA89
+V624,P211,ICU,2024-01-19 07:01:32,53,emergency,high,3,"['anesthesia', 'pediatrics', 'surgery']",3,RA189
+V625,P912,Emergency,2024-05-02 20:14:26,87,routine check-up,low,2,"['surgery', 'pediatrics']",4,RA227
+V626,P840,ICU,2024-07-10 04:51:57,120,routine check-up,medium,1,['intensive care'],4,RA500
+V627,P451,Pediatrics,2024-01-30 12:56:09,104,routine check-up,medium,1,['surgery'],4,RA387
+V628,P438,ICU,2024-04-24 09:09:41,53,routine check-up,low,3,"['intensive care', 'anesthesia', 'general care']",4,RA387
+V629,P909,Emergency,2024-04-19 10:40:31,80,emergency,low,3,"['intensive care', 'anesthesia', 'surgery']",4,RA236
+V630,P639,Pediatrics,2024-03-28 18:35:58,91,routine check-up,medium,2,"['anesthesia', 'pediatrics']",3,RA264
+V631,P524,General,2024-05-09 05:10:38,53,routine check-up,high,3,"['intensive care', 'general care', 'pediatrics']",5,RA49
+V632,P82,Emergency,2024-01-20 06:35:49,120,emergency,high,1,['intensive care'],4,RA89
+V633,P165,General,2024-03-03 13:28:45,56,routine check-up,high,3,"['intensive care', 'general care', 'surgery']",5,RA477
+V634,P192,Emergency,2024-02-23 05:39:48,55,emergency,high,1,['intensive care'],3,RA134
+V635,P376,ICU,2024-07-06 00:24:39,93,emergency,low,2,"['anesthesia', 'general care']",3,RA111
+V636,P551,ICU,2024-05-04 19:25:20,80,emergency,medium,3,"['anesthesia', 'pediatrics', 'general care']",4,RA400
+V637,P237,Emergency,2024-01-13 07:41:18,85,routine check-up,medium,1,['pediatrics'],4,RA385
+V638,P561,ICU,2024-07-27 07:32:07,74,routine check-up,high,2,"['surgery', 'intensive care']",4,RA192
+V639,P159,General,2024-02-24 11:52:09,41,routine check-up,high,2,"['surgery', 'pediatrics']",5,RA383
+V640,P697,ICU,2024-05-22 06:44:52,74,routine check-up,high,3,"['surgery', 'intensive care', 'general care']",3,RA79
+V641,P659,Pediatrics,2024-02-10 11:19:15,41,routine check-up,high,1,['pediatrics'],5,RA25
+V642,P839,Emergency,2024-03-07 18:54:34,97,routine check-up,medium,2,"['pediatrics', 'intensive care']",4,RA106
+V643,P857,Emergency,2024-07-26 21:29:12,82,routine check-up,high,2,"['pediatrics', 'anesthesia']",3,RA447
+V644,P231,ICU,2024-02-29 19:26:57,34,emergency,low,2,"['anesthesia', 'surgery']",4,RA283
+V645,P275,Surgery,2024-04-07 00:30:17,94,emergency,medium,2,"['anesthesia', 'intensive care']",3,RA381
+V646,P735,Surgery,2024-01-11 18:42:29,73,emergency,high,3,"['intensive care', 'anesthesia', 'pediatrics']",5,RA56
+V647,P482,Pediatrics,2024-02-24 06:24:14,86,routine check-up,low,2,"['pediatrics', 'surgery']",3,RA208
+V648,P663,General,2024-07-09 21:25:35,38,routine check-up,low,2,"['surgery', 'anesthesia']",3,RA108
+V649,P725,Surgery,2024-07-12 15:07:00,101,emergency,medium,2,"['intensive care', 'pediatrics']",4,RA31
+V650,P161,ICU,2024-04-17 23:21:44,46,emergency,high,3,"['anesthesia', 'pediatrics', 'surgery']",3,RA477
+V651,P814,Emergency,2024-02-24 23:29:52,103,routine check-up,medium,2,"['surgery', 'general care']",3,RA302
+V652,P634,Emergency,2024-01-28 10:28:55,114,emergency,medium,1,['anesthesia'],3,RA301
+V653,P38,ICU,2024-01-14 04:36:17,84,routine check-up,medium,3,"['intensive care', 'anesthesia', 'pediatrics']",4,RA434
+V654,P253,General,2024-04-14 01:52:34,36,emergency,medium,2,"['surgery', 'anesthesia']",4,RA499
+V655,P122,ICU,2024-06-11 02:00:30,32,routine check-up,high,2,"['anesthesia', 'surgery']",4,RA191
+V656,P516,Surgery,2024-01-16 13:07:06,55,routine check-up,low,3,"['surgery', 'intensive care', 'pediatrics']",3,RA241
+V657,P420,Pediatrics,2024-07-27 21:53:51,68,emergency,low,1,['anesthesia'],4,RA88
+V658,P300,Emergency,2024-01-11 03:32:10,112,emergency,low,1,['anesthesia'],4,RA416
+V659,P205,General,2024-07-22 15:25:09,72,routine check-up,low,2,"['anesthesia', 'general care']",3,RA423
+V660,P494,Emergency,2024-07-28 15:08:22,66,emergency,medium,1,['general care'],3,RA495
+V661,P765,Pediatrics,2024-04-25 01:42:48,82,emergency,medium,3,"['general care', 'intensive care', 'anesthesia']",3,RA491
+V662,P390,Pediatrics,2024-06-11 04:31:17,37,routine check-up,high,2,"['general care', 'pediatrics']",5,RA396
+V663,P207,Emergency,2024-04-13 05:33:46,35,routine check-up,high,1,['anesthesia'],5,RA240
+V664,P990,Emergency,2024-06-14 14:59:38,104,routine check-up,high,2,"['pediatrics', 'anesthesia']",5,RA43
+V665,P999,Surgery,2024-07-26 02:20:24,110,routine check-up,low,1,['general care'],4,RA31
+V666,P836,Pediatrics,2024-01-19 20:33:13,97,routine check-up,low,1,['surgery'],3,RA428
+V667,P196,Emergency,2024-07-18 13:39:54,32,routine check-up,high,1,['pediatrics'],3,RA238
+V668,P195,Surgery,2024-05-06 18:48:13,87,routine check-up,low,3,"['general care', 'pediatrics', 'surgery']",3,RA296
+V669,P299,Pediatrics,2024-01-23 22:36:02,76,emergency,high,1,['surgery'],3,RA100
+V670,P486,Surgery,2024-03-24 18:46:34,77,emergency,medium,2,"['pediatrics', 'general care']",3,RA226
+V671,P837,General,2024-01-13 18:36:59,40,emergency,low,3,"['general care', 'anesthesia', 'pediatrics']",4,RA208
+V672,P834,General,2024-02-26 06:11:10,31,emergency,medium,2,"['anesthesia', 'general care']",4,RA147
+V673,P957,Surgery,2024-04-06 03:31:00,102,emergency,low,2,"['pediatrics', 'general care']",3,RA18
+V674,P358,Pediatrics,2024-07-09 03:35:56,52,routine check-up,medium,2,"['intensive care', 'anesthesia']",4,RA264
+V675,P54,ICU,2024-01-21 17:18:44,33,routine check-up,high,2,"['anesthesia', 'general care']",4,RA385
+V676,P985,ICU,2024-07-22 23:05:28,118,emergency,low,3,"['general care', 'intensive care', 'anesthesia']",3,RA302
+V677,P380,Pediatrics,2024-07-25 19:50:17,87,emergency,high,2,"['general care', 'pediatrics']",4,RA111
+V678,P839,Emergency,2024-03-27 05:26:45,94,routine check-up,high,1,['general care'],5,RA231
+V679,P263,Surgery,2024-08-23 10:09:07,71,routine check-up,low,3,"['general care', 'anesthesia', 'surgery']",3,RA134
+V680,P261,Surgery,2024-08-22 12:41:01,57,routine check-up,medium,1,['anesthesia'],3,RA165
+V681,P403,ICU,2024-05-14 11:01:51,54,routine check-up,low,1,['pediatrics'],3,RA341
+V682,P560,Pediatrics,2024-04-08 05:20:48,63,emergency,medium,3,"['intensive care', 'general care', 'pediatrics']",3,RA101
+V683,P797,Surgery,2024-07-26 15:02:31,36,routine check-up,low,3,"['anesthesia', 'intensive care', 'surgery']",3,RA493
+V684,P902,Pediatrics,2024-08-11 00:17:09,60,emergency,high,2,"['pediatrics', 'general care']",3,RA67
+V685,P505,Surgery,2024-05-15 20:17:54,106,routine check-up,low,3,"['intensive care', 'anesthesia', 'pediatrics']",3,RA251
+V686,P186,Emergency,2024-04-17 13:27:34,109,routine check-up,low,2,"['general care', 'anesthesia']",4,RA6
+V687,P734,General,2024-01-23 20:47:08,86,emergency,medium,1,['anesthesia'],4,RA239
+V688,P349,General,2024-06-13 04:14:20,58,routine check-up,high,3,"['general care', 'anesthesia', 'pediatrics']",3,RA5
+V689,P90,Surgery,2024-02-20 23:21:39,113,routine check-up,high,1,['surgery'],5,RA360
+V690,P314,General,2024-05-15 13:01:27,95,routine check-up,high,1,['surgery'],3,RA48
+V691,P164,Emergency,2024-06-18 19:06:42,61,routine check-up,low,3,"['general care', 'pediatrics', 'anesthesia']",3,RA337
+V692,P137,ICU,2024-06-02 18:09:07,89,emergency,medium,3,"['pediatrics', 'surgery', 'general care']",4,RA452
+V693,P44,Pediatrics,2024-04-22 23:48:28,108,routine check-up,medium,3,"['general care', 'pediatrics', 'intensive care']",3,RA341
+V694,P256,Pediatrics,2024-01-25 23:41:55,111,routine check-up,medium,1,['pediatrics'],4,RA147
+V695,P484,General,2024-02-25 06:18:22,49,emergency,high,3,"['anesthesia', 'intensive care', 'general care']",4,RA140
+V696,P673,General,2024-01-19 23:56:10,68,emergency,high,3,"['surgery', 'general care', 'anesthesia']",5,RA236
+V697,P562,Emergency,2024-07-31 14:37:31,41,routine check-up,low,1,['anesthesia'],3,RA315
+V698,P664,Pediatrics,2024-06-26 10:08:36,38,emergency,medium,2,"['anesthesia', 'surgery']",4,RA116
+V699,P189,ICU,2024-02-08 06:50:35,73,routine check-up,high,3,"['general care', 'surgery', 'pediatrics']",4,RA480
+V700,P934,Pediatrics,2024-05-30 20:38:35,80,emergency,low,3,"['pediatrics', 'surgery', 'anesthesia']",3,RA213
+V701,P835,General,2024-07-23 23:08:33,89,emergency,medium,1,['surgery'],4,RA168
+V702,P357,Emergency,2024-04-03 01:44:00,52,routine check-up,high,3,"['intensive care', 'pediatrics', 'surgery']",3,RA372
+V703,P946,Surgery,2024-07-14 10:34:56,88,emergency,low,2,"['surgery', 'general care']",3,RA235
+V704,P679,Emergency,2024-03-26 02:55:46,46,routine check-up,high,2,"['general care', 'pediatrics']",5,RA379
+V705,P70,General,2024-01-21 16:48:56,79,emergency,high,3,"['general care', 'surgery', 'pediatrics']",4,RA482
+V706,P207,ICU,2024-06-07 04:46:08,54,emergency,medium,2,"['intensive care', 'anesthesia']",3,RA247
+V707,P478,General,2024-08-08 16:33:46,106,emergency,high,1,['anesthesia'],5,RA114
+V708,P158,Pediatrics,2024-04-29 15:57:51,88,routine check-up,medium,1,['intensive care'],3,RA448
+V709,P909,Pediatrics,2024-01-25 15:47:10,40,routine check-up,low,2,"['pediatrics', 'anesthesia']",3,RA47
+V710,P33,Emergency,2024-05-09 03:59:31,42,emergency,medium,1,['pediatrics'],4,RA221
+V711,P137,Surgery,2024-04-04 12:32:02,43,emergency,low,2,"['pediatrics', 'anesthesia']",3,RA125
+V712,P458,Pediatrics,2024-03-08 19:46:02,56,routine check-up,low,3,"['general care', 'anesthesia', 'intensive care']",4,RA182
+V713,P692,Emergency,2024-06-11 12:09:58,48,emergency,high,2,"['pediatrics', 'intensive care']",5,RA305
+V714,P239,Surgery,2024-03-15 23:06:44,120,emergency,low,2,"['intensive care', 'anesthesia']",4,RA196
+V715,P553,General,2024-03-23 14:16:01,82,routine check-up,low,2,"['pediatrics', 'general care']",4,RA210
+V716,P252,General,2024-02-21 08:50:37,43,routine check-up,low,3,"['anesthesia', 'surgery', 'pediatrics']",3,RA183
+V717,P675,ICU,2024-05-09 16:32:11,92,emergency,low,1,['general care'],3,RA112
+V718,P261,Surgery,2024-08-19 15:37:02,35,emergency,low,1,['anesthesia'],4,RA194
+V719,P989,General,2024-07-26 12:44:53,76,emergency,low,3,"['intensive care', 'general care', 'anesthesia']",3,RA86
+V720,P603,Surgery,2024-02-08 01:07:56,63,emergency,low,1,['anesthesia'],4,RA286
+V721,P66,ICU,2024-03-18 09:14:18,103,emergency,high,2,"['general care', 'pediatrics']",3,RA85
+V722,P33,Surgery,2024-03-08 03:02:24,87,emergency,low,1,['surgery'],4,RA150
+V723,P713,Pediatrics,2024-05-21 18:31:17,49,routine check-up,high,3,"['anesthesia', 'pediatrics', 'surgery']",4,RA73
+V724,P49,General,2024-02-22 07:24:41,91,emergency,low,3,"['anesthesia', 'intensive care', 'general care']",3,RA172
+V725,P979,General,2024-03-14 09:56:44,61,routine check-up,high,3,"['surgery', 'intensive care', 'pediatrics']",4,RA46
+V726,P657,General,2024-08-21 20:50:34,66,emergency,high,1,['intensive care'],5,RA328
+V727,P573,Emergency,2024-06-27 14:58:00,115,routine check-up,medium,2,"['anesthesia', 'general care']",3,RA13
+V728,P496,Surgery,2024-02-21 05:51:56,48,routine check-up,low,1,['intensive care'],4,RA222
+V729,P850,General,2024-07-29 08:57:04,34,emergency,medium,3,"['intensive care', 'surgery', 'pediatrics']",4,RA231
+V730,P264,Emergency,2024-06-03 06:06:29,50,emergency,high,3,"['surgery', 'general care', 'intensive care']",5,RA191
+V731,P787,Surgery,2024-07-07 06:28:21,58,emergency,high,1,['surgery'],3,RA455
+V732,P853,Emergency,2024-05-11 10:07:55,93,routine check-up,medium,3,"['pediatrics', 'anesthesia', 'surgery']",4,RA354
+V733,P575,General,2024-01-27 03:50:50,96,emergency,high,1,['intensive care'],4,RA223
+V734,P181,Emergency,2024-02-03 08:15:40,80,emergency,high,1,['pediatrics'],5,RA444
+V735,P759,Surgery,2024-07-30 04:56:04,53,routine check-up,high,1,['surgery'],3,RA222
+V736,P75,ICU,2024-02-19 01:42:41,115,routine check-up,medium,1,['general care'],3,RA231
+V737,P881,Emergency,2024-06-22 13:18:39,111,routine check-up,medium,3,"['general care', 'pediatrics', 'intensive care']",3,RA122
+V738,P667,Pediatrics,2024-02-29 16:38:12,92,routine check-up,low,3,"['surgery', 'pediatrics', 'anesthesia']",3,RA117
+V739,P504,Surgery,2024-01-04 05:30:08,61,routine check-up,medium,2,"['pediatrics', 'anesthesia']",4,RA137
+V740,P982,Emergency,2024-01-03 18:18:30,62,routine check-up,low,3,"['general care', 'intensive care', 'pediatrics']",4,RA132
+V741,P806,General,2024-08-27 00:17:55,66,emergency,medium,1,['surgery'],3,RA256
+V742,P79,General,2024-03-05 00:21:36,76,routine check-up,high,1,['general care'],5,RA198
+V743,P719,General,2024-07-10 03:53:06,60,routine check-up,low,2,"['anesthesia', 'intensive care']",3,RA13
+V744,P842,General,2024-02-21 13:14:46,44,routine check-up,high,3,"['anesthesia', 'surgery', 'pediatrics']",4,RA361
+V745,P149,Emergency,2024-01-19 17:05:29,116,emergency,high,3,"['pediatrics', 'intensive care', 'anesthesia']",5,RA35
+V746,P197,Emergency,2024-07-12 17:27:14,90,routine check-up,low,2,"['general care', 'pediatrics']",3,RA352
+V747,P952,Surgery,2024-03-21 14:54:02,69,routine check-up,high,2,"['surgery', 'pediatrics']",4,RA310
+V748,P172,Pediatrics,2024-01-20 01:15:11,83,emergency,medium,3,"['anesthesia', 'intensive care', 'surgery']",4,RA62
+V749,P679,Pediatrics,2024-04-16 20:35:05,114,emergency,medium,3,"['anesthesia', 'pediatrics', 'general care']",3,RA67
+V750,P666,General,2024-06-30 14:11:09,101,emergency,low,3,"['anesthesia', 'intensive care', 'pediatrics']",4,RA426
+V751,P740,Surgery,2024-06-05 14:11:41,67,emergency,low,2,"['general care', 'surgery']",3,RA334
+V752,P276,ICU,2024-01-30 09:07:29,54,emergency,high,2,"['pediatrics', 'surgery']",3,RA448
+V753,P645,General,2024-03-29 04:06:36,65,routine check-up,low,3,"['intensive care', 'anesthesia', 'general care']",3,RA199
+V754,P56,Surgery,2024-03-21 00:51:02,115,emergency,low,2,"['anesthesia', 'surgery']",4,RA337
+V755,P391,General,2024-06-13 06:23:25,70,routine check-up,low,3,"['anesthesia', 'surgery', 'general care']",4,RA199
+V756,P466,General,2024-08-22 20:58:42,85,emergency,low,2,"['surgery', 'anesthesia']",3,RA477
+V757,P872,ICU,2024-07-28 11:01:28,33,emergency,low,2,"['pediatrics', 'surgery']",3,RA301
+V758,P743,Pediatrics,2024-08-17 21:02:32,90,routine check-up,medium,2,"['anesthesia', 'surgery']",4,RA361
+V759,P372,General,2024-02-22 07:54:38,46,routine check-up,high,3,"['pediatrics', 'surgery', 'general care']",3,RA152
+V760,P404,Pediatrics,2024-06-12 08:49:54,60,routine check-up,low,3,"['anesthesia', 'general care', 'surgery']",3,RA69
+V761,P249,General,2024-07-25 14:23:11,110,emergency,medium,1,['intensive care'],3,RA376
+V762,P749,Pediatrics,2024-02-02 18:07:11,56,emergency,medium,2,"['anesthesia', 'pediatrics']",4,RA182
+V763,P985,ICU,2024-03-25 00:56:31,104,emergency,high,2,"['intensive care', 'pediatrics']",5,RA344
+V764,P108,Surgery,2024-01-03 08:31:11,31,emergency,high,2,"['surgery', 'general care']",4,RA105
+V765,P261,General,2024-02-06 18:56:06,118,emergency,low,3,"['surgery', 'pediatrics', 'general care']",4,RA367
+V766,P954,ICU,2024-01-12 05:03:55,64,emergency,high,2,"['pediatrics', 'intensive care']",4,RA310
+V767,P935,Emergency,2024-03-24 10:24:37,72,routine check-up,high,3,"['anesthesia', 'surgery', 'general care']",4,RA380
+V768,P945,Pediatrics,2024-03-25 05:19:22,95,routine check-up,high,1,['anesthesia'],3,RA433
+V769,P118,Pediatrics,2024-03-16 09:46:35,112,emergency,low,2,"['intensive care', 'anesthesia']",3,RA290
+V770,P154,General,2024-05-18 03:15:44,119,routine check-up,high,3,"['pediatrics', 'intensive care', 'surgery']",5,RA10
+V771,P599,General,2024-04-17 15:39:12,55,emergency,low,2,"['anesthesia', 'intensive care']",4,RA459
+V772,P883,Pediatrics,2024-06-13 14:22:27,40,routine check-up,high,1,['pediatrics'],4,RA173
+V773,P877,Emergency,2024-02-12 16:21:23,78,routine check-up,medium,1,['anesthesia'],4,RA487
+V774,P850,ICU,2024-07-12 20:40:53,59,routine check-up,high,1,['general care'],4,RA251
+V775,P919,ICU,2024-02-10 13:42:53,62,routine check-up,high,1,['anesthesia'],5,RA72
+V776,P741,General,2024-05-21 02:43:45,81,emergency,high,2,"['pediatrics', 'surgery']",4,RA416
+V777,P516,Surgery,2024-07-27 03:35:04,115,routine check-up,low,3,"['anesthesia', 'intensive care', 'general care']",4,RA433
+V778,P353,Surgery,2024-04-28 05:32:56,72,routine check-up,high,1,['intensive care'],4,RA89
+V779,P744,Pediatrics,2024-07-14 10:37:39,74,emergency,medium,2,"['intensive care', 'general care']",4,RA427
+V780,P226,Surgery,2024-03-23 16:55:28,87,emergency,high,3,"['pediatrics', 'general care', 'intensive care']",3,RA166
+V781,P118,ICU,2024-04-27 01:18:53,35,emergency,high,2,"['general care', 'surgery']",5,RA380
+V782,P902,Emergency,2024-04-08 05:01:14,38,emergency,high,2,"['surgery', 'pediatrics']",4,RA265
+V783,P103,Surgery,2024-04-25 13:58:30,60,routine check-up,medium,3,"['anesthesia', 'general care', 'surgery']",3,RA422
+V784,P676,General,2024-07-28 02:52:51,110,emergency,low,1,['anesthesia'],3,RA356
+V785,P704,General,2024-07-10 07:07:43,55,routine check-up,medium,1,['intensive care'],3,RA428
+V786,P223,Surgery,2024-06-09 03:16:45,60,emergency,low,2,"['pediatrics', 'intensive care']",3,RA14
+V787,P899,ICU,2024-02-27 06:07:05,34,emergency,high,2,"['pediatrics', 'general care']",3,RA125
+V788,P224,Pediatrics,2024-07-04 14:25:17,31,emergency,high,3,"['general care', 'pediatrics', 'anesthesia']",3,RA260
+V789,P595,Surgery,2024-01-11 13:57:45,59,emergency,low,1,['surgery'],3,RA188
+V790,P791,ICU,2024-03-28 18:29:55,117,emergency,high,3,"['surgery', 'general care', 'pediatrics']",4,RA63
+V791,P330,Surgery,2024-08-14 12:10:34,107,emergency,low,1,['anesthesia'],3,RA383
+V792,P372,General,2024-01-19 15:40:32,30,emergency,low,2,"['surgery', 'general care']",3,RA129
+V793,P473,General,2024-02-07 21:11:13,104,emergency,low,3,"['intensive care', 'surgery', 'pediatrics']",3,RA247
+V794,P207,General,2024-04-27 09:54:35,103,emergency,high,2,"['anesthesia', 'intensive care']",5,RA126
+V795,P471,Pediatrics,2024-03-29 03:49:44,60,emergency,low,3,"['surgery', 'pediatrics', 'intensive care']",3,RA116
+V796,P363,Emergency,2024-06-23 08:52:50,93,routine check-up,low,2,"['pediatrics', 'intensive care']",3,RA431
+V797,P531,ICU,2024-08-06 10:14:48,32,emergency,medium,1,['surgery'],3,RA441
+V798,P117,General,2024-05-23 23:27:52,58,routine check-up,high,1,['general care'],5,RA4
+V799,P564,ICU,2024-08-18 14:33:26,44,emergency,low,2,"['anesthesia', 'pediatrics']",3,RA344
+V800,P443,Surgery,2024-05-12 05:48:47,34,emergency,high,1,['pediatrics'],5,RA481
+V801,P444,ICU,2024-06-05 22:22:31,92,routine check-up,medium,3,"['general care', 'surgery', 'intensive care']",4,RA387
+V802,P410,General,2024-05-17 10:35:01,112,routine check-up,medium,1,['general care'],4,RA391
+V803,P18,Emergency,2024-02-21 20:43:35,120,emergency,high,2,"['general care', 'intensive care']",4,RA186
+V804,P613,Emergency,2024-01-25 23:03:43,71,routine check-up,high,3,"['surgery', 'general care', 'intensive care']",4,RA5
+V805,P942,Emergency,2024-07-05 02:40:53,115,routine check-up,medium,3,"['surgery', 'intensive care', 'pediatrics']",4,RA492
+V806,P249,Pediatrics,2024-03-13 01:43:48,113,emergency,high,3,"['general care', 'pediatrics', 'surgery']",3,RA267
+V807,P779,General,2024-07-20 00:33:16,118,emergency,low,3,"['general care', 'pediatrics', 'anesthesia']",4,RA172
+V808,P167,Pediatrics,2024-02-21 17:18:28,66,emergency,high,2,"['intensive care', 'pediatrics']",5,RA268
+V809,P222,Surgery,2024-02-06 09:56:31,57,routine check-up,medium,2,"['pediatrics', 'intensive care']",3,RA63
+V810,P113,Surgery,2024-04-24 19:43:03,54,emergency,high,2,"['surgery', 'general care']",4,RA184
+V811,P282,ICU,2024-04-25 03:21:29,85,emergency,high,2,"['surgery', 'pediatrics']",4,RA409
+V812,P941,ICU,2024-03-12 04:58:12,99,emergency,high,3,"['pediatrics', 'anesthesia', 'general care']",5,RA26
+V813,P59,General,2024-04-04 09:35:18,49,routine check-up,medium,3,"['pediatrics', 'general care', 'intensive care']",4,RA447
+V814,P288,Surgery,2024-06-11 05:32:57,56,routine check-up,medium,1,['intensive care'],3,RA237
+V815,P762,ICU,2024-06-24 16:36:24,81,routine check-up,high,2,"['surgery', 'anesthesia']",4,RA202
+V816,P970,ICU,2024-06-16 09:48:19,88,emergency,medium,3,"['pediatrics', 'anesthesia', 'intensive care']",3,RA243
+V817,P942,ICU,2024-06-18 22:50:49,102,routine check-up,low,3,"['intensive care', 'anesthesia', 'surgery']",4,RA51
+V818,P36,ICU,2024-03-09 22:16:10,87,routine check-up,medium,2,"['surgery', 'general care']",4,RA377
+V819,P62,Surgery,2024-03-07 14:35:56,111,routine check-up,high,3,"['intensive care', 'pediatrics', 'anesthesia']",3,RA341
+V820,P763,Surgery,2024-04-19 04:24:29,49,emergency,high,2,"['intensive care', 'anesthesia']",3,RA391
+V821,P915,ICU,2024-05-12 04:48:54,63,emergency,medium,3,"['intensive care', 'anesthesia', 'surgery']",4,RA5
+V822,P376,Surgery,2024-06-17 15:12:35,81,emergency,low,3,"['pediatrics', 'intensive care', 'anesthesia']",3,RA294
+V823,P640,Surgery,2024-03-19 01:26:08,53,emergency,medium,3,"['pediatrics', 'general care', 'intensive care']",3,RA95
+V824,P661,Pediatrics,2024-04-02 14:04:12,63,emergency,medium,3,"['intensive care', 'surgery', 'general care']",4,RA390
+V825,P325,ICU,2024-04-12 00:15:28,74,routine check-up,medium,3,"['pediatrics', 'general care', 'anesthesia']",3,RA12
+V826,P347,ICU,2024-01-22 20:17:06,90,emergency,medium,1,['intensive care'],4,RA170
+V827,P285,ICU,2024-01-04 19:56:12,115,emergency,medium,2,"['general care', 'anesthesia']",4,RA483
+V828,P660,ICU,2024-04-16 12:50:23,30,emergency,low,3,"['pediatrics', 'intensive care', 'anesthesia']",3,RA357
+V829,P700,General,2024-07-22 14:04:18,85,routine check-up,medium,1,['anesthesia'],4,RA362
+V830,P164,ICU,2024-06-24 18:19:42,66,routine check-up,high,2,"['surgery', 'pediatrics']",4,RA347
+V831,P214,General,2024-01-23 17:03:28,116,routine check-up,low,2,"['pediatrics', 'general care']",3,RA456
+V832,P389,General,2024-05-01 10:59:24,108,routine check-up,medium,2,"['anesthesia', 'pediatrics']",4,RA410
+V833,P328,Surgery,2024-05-05 01:34:56,84,emergency,high,1,['anesthesia'],3,RA211
+V834,P797,General,2024-08-01 00:15:00,93,routine check-up,medium,1,['pediatrics'],4,RA45
+V835,P867,Emergency,2024-03-06 21:00:43,69,routine check-up,high,1,['anesthesia'],5,RA26
+V836,P576,General,2024-05-16 22:35:57,49,emergency,medium,1,['general care'],4,RA400
+V837,P163,Pediatrics,2024-03-17 10:07:28,65,routine check-up,low,1,['intensive care'],3,RA116
+V838,P629,Surgery,2024-07-24 14:31:57,118,routine check-up,high,3,"['surgery', 'intensive care', 'general care']",5,RA88
+V839,P186,ICU,2024-06-19 04:45:29,31,emergency,high,3,"['general care', 'pediatrics', 'surgery']",3,RA241
+V840,P846,General,2024-07-28 01:18:30,74,routine check-up,high,3,"['pediatrics', 'anesthesia', 'intensive care']",4,RA434
+V841,P628,General,2024-01-26 11:45:52,56,routine check-up,medium,3,"['pediatrics', 'intensive care', 'surgery']",3,RA140
+V842,P843,Surgery,2024-06-02 20:16:59,84,routine check-up,high,1,['intensive care'],4,RA377
+V843,P935,Pediatrics,2024-07-22 22:55:22,112,emergency,medium,2,"['anesthesia', 'surgery']",4,RA473
+V844,P127,Emergency,2024-03-25 17:18:09,70,emergency,medium,2,"['anesthesia', 'surgery']",4,RA305
+V845,P441,General,2024-01-17 23:24:15,32,routine check-up,high,1,['anesthesia'],5,RA488
+V846,P918,General,2024-04-24 10:59:01,112,emergency,medium,3,"['intensive care', 'anesthesia', 'surgery']",4,RA71
+V847,P131,General,2024-07-27 12:40:00,76,routine check-up,medium,2,"['general care', 'surgery']",4,RA33
+V848,P635,Surgery,2024-08-09 08:11:04,58,emergency,high,2,"['intensive care', 'surgery']",4,RA440
+V849,P983,General,2024-08-24 02:57:04,65,emergency,high,2,"['pediatrics', 'intensive care']",4,RA19
+V850,P788,General,2024-04-19 18:57:03,101,emergency,medium,2,"['pediatrics', 'intensive care']",3,RA247
+V851,P175,Surgery,2024-02-22 05:09:56,82,routine check-up,medium,3,"['surgery', 'anesthesia', 'general care']",4,RA106
+V852,P180,ICU,2024-03-21 19:27:19,33,emergency,low,3,"['intensive care', 'pediatrics', 'anesthesia']",3,RA373
+V853,P315,Emergency,2024-04-08 09:56:48,67,emergency,low,2,"['general care', 'surgery']",4,RA182
+V854,P38,Emergency,2024-07-31 08:07:12,55,emergency,medium,3,"['pediatrics', 'intensive care', 'general care']",3,RA75
+V855,P125,General,2024-07-15 00:51:25,74,emergency,medium,3,"['general care', 'pediatrics', 'surgery']",3,RA305
+V856,P116,ICU,2024-03-11 10:50:30,110,routine check-up,high,3,"['anesthesia', 'intensive care', 'surgery']",4,RA448
+V857,P526,Emergency,2024-07-08 17:18:23,86,emergency,medium,2,"['surgery', 'intensive care']",3,RA36
+V858,P201,Pediatrics,2024-02-12 22:27:24,89,routine check-up,high,2,"['intensive care', 'anesthesia']",5,RA484
+V859,P447,Surgery,2024-01-01 03:47:58,86,routine check-up,medium,3,"['pediatrics', 'intensive care', 'anesthesia']",4,RA164
+V860,P478,Emergency,2024-06-15 16:15:32,70,emergency,low,3,"['intensive care', 'surgery', 'anesthesia']",3,RA63
+V861,P974,Pediatrics,2024-04-17 17:28:06,48,emergency,low,2,"['anesthesia', 'pediatrics']",4,RA7
+V862,P988,Emergency,2024-06-29 14:38:58,113,routine check-up,low,1,['anesthesia'],3,RA299
+V863,P584,General,2024-06-12 19:13:05,75,routine check-up,high,3,"['pediatrics', 'surgery', 'anesthesia']",5,RA24
+V864,P776,Pediatrics,2024-01-13 23:55:52,98,emergency,medium,3,"['anesthesia', 'intensive care', 'general care']",3,RA122
+V865,P336,Pediatrics,2024-05-24 06:22:20,95,emergency,high,2,"['general care', 'surgery']",4,RA350
+V866,P346,Surgery,2024-01-02 14:46:35,91,routine check-up,high,3,"['general care', 'anesthesia', 'surgery']",5,RA271
+V867,P611,Emergency,2024-02-01 04:36:15,39,routine check-up,high,3,"['pediatrics', 'general care', 'intensive care']",3,RA442
+V868,P671,General,2024-03-23 06:10:32,104,routine check-up,medium,1,['intensive care'],3,RA321
+V869,P383,Emergency,2024-06-12 02:02:30,85,emergency,low,3,"['anesthesia', 'intensive care', 'general care']",4,RA368
+V870,P993,Emergency,2024-08-22 01:17:55,57,routine check-up,low,3,"['intensive care', 'general care', 'surgery']",3,RA484
+V871,P77,Pediatrics,2024-07-25 13:41:56,49,emergency,low,1,['intensive care'],4,RA185
+V872,P918,ICU,2024-03-14 19:15:49,120,routine check-up,medium,2,"['anesthesia', 'intensive care']",3,RA482
+V873,P983,ICU,2024-01-25 15:52:37,41,routine check-up,high,2,"['surgery', 'intensive care']",4,RA306
+V874,P83,ICU,2024-03-12 22:34:28,97,routine check-up,high,3,"['pediatrics', 'general care', 'anesthesia']",4,RA26
+V875,P772,ICU,2024-04-07 15:17:44,38,routine check-up,medium,1,['intensive care'],4,RA425
+V876,P209,Surgery,2024-03-22 16:48:22,76,emergency,low,3,"['surgery', 'pediatrics', 'anesthesia']",3,RA18
+V877,P756,Emergency,2024-01-23 18:39:17,59,emergency,medium,3,"['general care', 'surgery', 'intensive care']",3,RA399
+V878,P615,Pediatrics,2024-03-30 17:47:45,65,routine check-up,high,2,"['general care', 'pediatrics']",4,RA306
+V879,P737,General,2024-06-01 03:11:49,109,emergency,medium,2,"['pediatrics', 'intensive care']",4,RA465
+V880,P289,Surgery,2024-03-09 22:28:56,104,routine check-up,high,1,['intensive care'],3,RA478
+V881,P88,Pediatrics,2024-06-06 04:16:45,88,emergency,low,3,"['anesthesia', 'general care', 'pediatrics']",3,RA212
+V882,P807,Pediatrics,2024-05-30 20:16:16,114,emergency,medium,1,['surgery'],3,RA99
+V883,P172,Pediatrics,2024-04-08 22:33:51,36,routine check-up,high,2,"['general care', 'intensive care']",4,RA407
+V884,P481,General,2024-04-30 02:21:30,36,routine check-up,medium,2,"['surgery', 'general care']",3,RA227
+V885,P960,ICU,2024-02-03 00:04:05,31,emergency,high,3,"['general care', 'surgery', 'pediatrics']",3,RA120
+V886,P79,ICU,2024-06-11 21:55:05,36,routine check-up,medium,2,"['intensive care', 'general care']",3,RA308
+V887,P692,General,2024-01-15 23:41:02,62,routine check-up,low,1,['intensive care'],4,RA354
+V888,P356,Surgery,2024-05-08 19:07:28,42,routine check-up,medium,2,"['surgery', 'pediatrics']",3,RA474
+V889,P914,Emergency,2024-03-24 01:06:03,59,emergency,medium,2,"['intensive care', 'anesthesia']",3,RA4
+V890,P216,Surgery,2024-02-05 04:54:46,44,routine check-up,medium,2,"['anesthesia', 'surgery']",4,RA289
+V891,P83,ICU,2024-03-07 11:35:41,57,emergency,high,2,"['surgery', 'intensive care']",5,RA223
+V892,P479,Pediatrics,2024-07-15 11:48:35,73,routine check-up,low,3,"['intensive care', 'pediatrics', 'anesthesia']",4,RA153
+V893,P302,Pediatrics,2024-04-29 16:05:18,34,emergency,high,2,"['anesthesia', 'general care']",5,RA416
+V894,P164,Emergency,2024-04-05 18:33:01,73,routine check-up,medium,1,['pediatrics'],3,RA52
+V895,P358,Emergency,2024-02-08 22:55:31,41,emergency,medium,2,"['surgery', 'intensive care']",3,RA276
+V896,P848,Emergency,2024-02-21 01:16:54,108,emergency,high,1,['pediatrics'],3,RA95
+V897,P809,General,2024-08-08 06:04:26,85,routine check-up,low,2,"['general care', 'intensive care']",4,RA489
+V898,P351,General,2024-06-12 12:38:45,62,emergency,low,1,['intensive care'],3,RA322
+V899,P47,Surgery,2024-07-27 16:44:09,97,routine check-up,medium,1,['surgery'],4,RA384
+V900,P243,General,2024-01-31 18:45:04,88,emergency,low,2,"['anesthesia', 'pediatrics']",3,RA142
+V901,P597,ICU,2024-07-23 05:40:37,75,emergency,medium,3,"['pediatrics', 'surgery', 'general care']",3,RA454
+V902,P720,ICU,2024-04-16 19:56:16,82,routine check-up,high,3,"['pediatrics', 'surgery', 'general care']",5,RA451
+V903,P354,Surgery,2024-02-23 03:10:47,55,emergency,low,2,"['pediatrics', 'intensive care']",4,RA354
+V904,P285,ICU,2024-03-28 04:32:33,45,routine check-up,low,3,"['pediatrics', 'anesthesia', 'general care']",4,RA294
+V905,P425,Surgery,2024-02-13 15:52:02,114,routine check-up,low,3,"['general care', 'intensive care', 'pediatrics']",4,RA142
+V906,P329,Emergency,2024-05-29 08:43:54,66,routine check-up,low,1,['surgery'],3,RA331
+V907,P159,General,2024-08-23 12:42:28,104,routine check-up,low,1,['surgery'],4,RA407
+V908,P504,Pediatrics,2024-03-03 17:01:49,105,routine check-up,high,1,['anesthesia'],3,RA52
+V909,P742,Surgery,2024-06-27 12:52:25,104,emergency,high,3,"['intensive care', 'anesthesia', 'pediatrics']",5,RA377
+V910,P209,Pediatrics,2024-06-26 08:43:16,87,routine check-up,high,3,"['anesthesia', 'general care', 'intensive care']",4,RA9
+V911,P893,ICU,2024-08-01 11:01:35,76,routine check-up,high,2,"['intensive care', 'pediatrics']",4,RA224
+V912,P253,General,2024-08-18 02:54:44,119,routine check-up,low,2,"['surgery', 'anesthesia']",3,RA306
+V913,P517,Pediatrics,2024-01-14 22:48:53,66,routine check-up,high,1,['intensive care'],5,RA480
+V914,P468,Emergency,2024-02-24 04:40:10,83,emergency,low,3,"['general care', 'surgery', 'anesthesia']",4,RA220
+V915,P27,Pediatrics,2024-05-21 04:42:07,70,routine check-up,low,2,"['intensive care', 'anesthesia']",4,RA479
+V916,P501,Emergency,2024-04-08 10:33:21,84,emergency,low,3,"['pediatrics', 'surgery', 'general care']",4,RA134
+V917,P460,Pediatrics,2024-07-05 18:59:59,96,routine check-up,high,3,"['pediatrics', 'anesthesia', 'surgery']",5,RA387
+V918,P952,General,2024-01-20 22:05:39,102,emergency,low,2,"['surgery', 'pediatrics']",3,RA275
+V919,P482,Surgery,2024-04-15 13:25:25,58,emergency,low,3,"['surgery', 'general care', 'anesthesia']",3,RA276
+V920,P471,Pediatrics,2024-01-06 22:58:42,38,routine check-up,low,2,"['intensive care', 'anesthesia']",4,RA179
+V921,P470,Surgery,2024-08-20 10:51:56,46,emergency,medium,1,['surgery'],4,RA417
+V922,P326,Emergency,2024-04-09 16:57:51,46,emergency,medium,3,"['surgery', 'pediatrics', 'intensive care']",3,RA430
+V923,P303,Surgery,2024-08-10 16:14:51,46,routine check-up,low,2,"['general care', 'intensive care']",4,RA392
+V924,P783,Pediatrics,2024-08-12 07:36:37,119,emergency,high,1,['pediatrics'],3,RA276
+V925,P437,Surgery,2024-01-26 13:02:48,95,emergency,low,2,"['pediatrics', 'anesthesia']",3,RA215
+V926,P308,General,2024-05-24 01:52:32,106,routine check-up,low,1,['anesthesia'],3,RA426
+V927,P225,General,2024-04-11 02:28:00,119,emergency,low,1,['surgery'],4,RA495
+V928,P304,Emergency,2024-04-23 18:27:16,116,routine check-up,low,1,['general care'],3,RA3
+V929,P179,Emergency,2024-01-19 07:59:31,73,emergency,medium,1,['general care'],3,RA226
+V930,P984,Surgery,2024-08-06 17:49:44,34,emergency,medium,3,"['anesthesia', 'intensive care', 'pediatrics']",3,RA151
+V931,P223,ICU,2024-01-13 00:55:40,71,routine check-up,medium,3,"['surgery', 'pediatrics', 'intensive care']",3,RA291
+V932,P98,Emergency,2024-01-13 05:31:51,75,routine check-up,high,1,['pediatrics'],4,RA465
+V933,P76,Emergency,2024-01-14 20:41:06,116,emergency,high,1,['general care'],3,RA256
+V934,P41,ICU,2024-05-25 01:01:59,104,emergency,high,2,"['surgery', 'pediatrics']",3,RA226
+V935,P305,ICU,2024-08-28 10:25:11,95,emergency,low,2,"['surgery', 'anesthesia']",3,RA317
+V936,P676,Surgery,2024-05-19 04:23:34,91,emergency,medium,2,"['anesthesia', 'surgery']",4,RA108
+V937,P567,ICU,2024-07-02 01:30:00,120,routine check-up,medium,1,['anesthesia'],3,RA70
+V938,P844,Emergency,2024-02-08 05:06:18,63,emergency,low,3,"['pediatrics', 'anesthesia', 'intensive care']",3,RA229
+V939,P137,ICU,2024-04-26 01:09:36,106,emergency,low,2,"['anesthesia', 'intensive care']",4,RA166
+V940,P324,Emergency,2024-05-02 18:13:26,40,routine check-up,medium,1,['pediatrics'],3,RA263
+V941,P277,ICU,2024-08-13 06:43:21,91,routine check-up,medium,2,"['general care', 'anesthesia']",3,RA461
+V942,P928,General,2024-04-14 00:51:33,88,emergency,low,2,"['intensive care', 'general care']",4,RA197
+V943,P211,ICU,2024-06-25 14:39:21,75,routine check-up,medium,1,['pediatrics'],3,RA454
+V944,P532,Surgery,2024-01-10 03:51:51,77,routine check-up,medium,3,"['pediatrics', 'general care', 'surgery']",3,RA256
+V945,P4,ICU,2024-01-22 11:12:25,76,emergency,high,1,['general care'],5,RA105
+V946,P135,General,2024-06-03 13:04:20,37,emergency,medium,2,"['anesthesia', 'pediatrics']",4,RA440
+V947,P853,Surgery,2024-05-23 06:07:45,82,routine check-up,low,1,['intensive care'],4,RA80
+V948,P873,Pediatrics,2024-07-19 06:30:05,51,routine check-up,low,1,['general care'],4,RA361
+V949,P604,Emergency,2024-04-24 23:02:50,85,emergency,high,3,"['general care', 'anesthesia', 'pediatrics']",4,RA39
+V950,P154,ICU,2024-01-05 03:21:00,71,emergency,high,3,"['general care', 'surgery', 'anesthesia']",3,RA435
+V951,P289,ICU,2024-07-12 04:44:28,43,routine check-up,low,3,"['intensive care', 'pediatrics', 'general care']",3,RA30
+V952,P686,Pediatrics,2024-01-20 02:43:30,58,emergency,medium,3,"['general care', 'intensive care', 'anesthesia']",3,RA319
+V953,P697,Pediatrics,2024-03-16 02:27:41,58,emergency,low,1,['pediatrics'],4,RA236
+V954,P231,General,2024-04-23 09:24:32,57,emergency,medium,3,"['pediatrics', 'general care', 'anesthesia']",3,RA268
+V955,P990,Pediatrics,2024-05-10 09:32:24,78,routine check-up,high,3,"['general care', 'pediatrics', 'surgery']",3,RA74
+V956,P782,ICU,2024-03-01 21:32:55,32,routine check-up,low,3,"['surgery', 'pediatrics', 'intensive care']",3,RA416
+V957,P113,Pediatrics,2024-03-25 14:07:37,45,routine check-up,high,1,['anesthesia'],3,RA479
+V958,P934,General,2024-08-25 03:55:56,56,routine check-up,medium,3,"['intensive care', 'pediatrics', 'general care']",3,RA248
+V959,P497,ICU,2024-03-31 00:48:02,57,emergency,medium,3,"['surgery', 'pediatrics', 'intensive care']",4,RA120
+V960,P735,Pediatrics,2024-05-19 07:52:38,51,emergency,high,3,"['intensive care', 'pediatrics', 'surgery']",3,RA491
+V961,P267,Pediatrics,2024-04-04 04:51:00,75,emergency,low,2,"['anesthesia', 'general care']",4,RA183
+V962,P523,Surgery,2024-06-15 04:46:30,54,routine check-up,medium,1,['anesthesia'],4,RA3
+V963,P47,Emergency,2024-08-02 21:38:26,78,emergency,medium,2,"['anesthesia', 'intensive care']",3,RA114
+V964,P744,General,2024-03-08 03:14:29,70,emergency,medium,2,"['anesthesia', 'intensive care']",3,RA356
+V965,P124,Surgery,2024-02-23 06:24:16,64,routine check-up,medium,1,['intensive care'],4,RA276
+V966,P756,Emergency,2024-08-18 13:47:17,100,emergency,low,1,['surgery'],3,RA182
+V967,P132,Emergency,2024-04-21 20:41:43,88,routine check-up,high,2,"['anesthesia', 'intensive care']",3,RA24
+V968,P125,ICU,2024-05-17 16:40:57,97,routine check-up,low,3,"['surgery', 'anesthesia', 'intensive care']",4,RA258
+V969,P412,Emergency,2024-07-04 00:24:35,116,emergency,low,2,"['anesthesia', 'pediatrics']",4,RA493
+V970,P153,General,2024-02-02 15:03:26,75,routine check-up,low,1,['general care'],4,RA9
+V971,P677,ICU,2024-07-19 21:42:14,46,emergency,high,2,"['anesthesia', 'pediatrics']",5,RA461
+V972,P932,Emergency,2024-04-30 09:58:32,65,routine check-up,high,1,['anesthesia'],5,RA111
+V973,P886,Surgery,2024-07-31 10:32:19,59,emergency,medium,2,"['intensive care', 'general care']",4,RA377
+V974,P394,Surgery,2024-06-25 11:43:53,88,routine check-up,high,2,"['pediatrics', 'anesthesia']",5,RA433
+V975,P868,General,2024-06-28 16:11:01,97,routine check-up,high,2,"['general care', 'pediatrics']",3,RA324
+V976,P58,Emergency,2024-06-26 15:47:11,34,emergency,medium,3,"['general care', 'pediatrics', 'anesthesia']",3,RA195
+V977,P520,Surgery,2024-03-07 22:11:51,93,emergency,medium,3,"['general care', 'intensive care', 'surgery']",3,RA464
+V978,P615,Pediatrics,2024-04-22 07:55:33,70,emergency,low,2,"['intensive care', 'pediatrics']",3,RA86
+V979,P918,Emergency,2024-04-20 11:34:20,95,emergency,high,1,['surgery'],3,RA493
+V980,P911,Pediatrics,2024-02-16 07:48:58,59,emergency,low,1,['anesthesia'],3,RA184
+V981,P700,ICU,2024-08-13 05:03:39,62,routine check-up,high,1,['general care'],4,RA320
+V982,P665,Pediatrics,2024-02-23 21:10:04,109,routine check-up,high,3,"['anesthesia', 'surgery', 'intensive care']",5,RA32
+V983,P347,General,2024-07-18 12:13:04,80,routine check-up,low,2,"['intensive care', 'pediatrics']",3,RA313
+V984,P955,Surgery,2024-04-05 09:37:29,32,emergency,high,3,"['general care', 'surgery', 'pediatrics']",3,RA144
+V985,P289,Surgery,2024-02-19 18:41:16,73,emergency,low,1,['anesthesia'],3,RA402
+V986,P151,Surgery,2024-07-16 18:59:23,112,routine check-up,medium,3,"['pediatrics', 'general care', 'intensive care']",4,RA365
+V987,P279,General,2024-05-17 04:33:09,45,emergency,high,1,['surgery'],5,RA117
+V988,P694,Pediatrics,2024-01-09 21:47:57,114,emergency,high,3,"['intensive care', 'anesthesia', 'pediatrics']",3,RA147
+V989,P11,Pediatrics,2024-04-02 05:32:59,85,emergency,medium,2,"['intensive care', 'pediatrics']",4,RA292
+V990,P299,ICU,2024-05-16 09:42:55,36,routine check-up,medium,3,"['surgery', 'pediatrics', 'anesthesia']",4,RA166
+V991,P378,ICU,2024-08-22 04:49:59,49,emergency,low,3,"['surgery', 'anesthesia', 'intensive care']",4,RA64
+V992,P96,ICU,2024-06-07 09:52:22,76,emergency,medium,1,['intensive care'],4,RA457
+V993,P153,Emergency,2024-02-25 08:12:39,41,routine check-up,low,2,"['surgery', 'general care']",3,RA68
+V994,P504,Emergency,2024-01-30 04:44:58,60,routine check-up,high,3,"['anesthesia', 'intensive care', 'general care']",5,RA171
+V995,P925,ICU,2024-06-23 16:03:59,66,emergency,high,3,"['anesthesia', 'pediatrics', 'intensive care']",4,RA189
+V996,P372,Pediatrics,2024-01-26 22:09:48,40,routine check-up,high,3,"['intensive care', 'surgery', 'pediatrics']",5,RA453
+V997,P148,Surgery,2024-02-16 05:39:42,69,routine check-up,low,3,"['pediatrics', 'general care', 'anesthesia']",4,RA136
+V998,P434,Pediatrics,2024-01-22 04:02:14,101,emergency,medium,2,"['pediatrics', 'anesthesia']",4,RA172
+V999,P988,Pediatrics,2024-06-09 06:54:07,40,routine check-up,high,1,['intensive care'],4,RA324
+V1000,P182,ICU,2024-06-26 06:34:20,114,routine check-up,high,1,['intensive care'],5,RA9

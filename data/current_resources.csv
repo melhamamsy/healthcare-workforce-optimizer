@@ -1,0 +1,101 @@
+resource_id,resource_type,department_id,availability_status,capacity
+R1,operating room,Surgery,available,7
+R2,bed,Emergency,available,2
+R3,ventilator,Surgery,in use,5
+R4,ventilator,General,in use,1
+R5,operating room,Emergency,in use,8
+R6,operating room,Surgery,in use,8
+R7,ventilator,General,in use,10
+R8,ventilator,General,in use,4
+R9,operating room,Pediatrics,available,10
+R10,bed,Surgery,in use,10
+R11,operating room,ICU,available,8
+R12,bed,Surgery,available,2
+R13,bed,General,in use,4
+R14,operating room,ICU,in use,2
+R15,bed,ICU,available,10
+R16,operating room,General,in use,7
+R17,bed,General,available,6
+R18,bed,Emergency,in use,8
+R19,operating room,Emergency,in use,2
+R20,bed,General,available,9
+R21,operating room,Emergency,available,4
+R22,bed,ICU,in use,6
+R23,bed,General,available,1
+R24,bed,Emergency,available,9
+R25,operating room,Emergency,in use,5
+R26,bed,ICU,available,6
+R27,bed,General,in use,2
+R28,bed,ICU,in use,9
+R29,operating room,ICU,in use,1
+R30,ventilator,Pediatrics,available,8
+R31,bed,Emergency,in use,5
+R32,operating room,Surgery,available,2
+R33,bed,General,available,9
+R34,operating room,ICU,available,9
+R35,ventilator,General,available,4
+R36,bed,Pediatrics,available,9
+R37,ventilator,ICU,in use,10
+R38,ventilator,Pediatrics,in use,4
+R39,bed,Surgery,available,6
+R40,ventilator,Pediatrics,available,8
+R41,bed,Emergency,in use,9
+R42,operating room,Surgery,in use,5
+R43,bed,Surgery,available,7
+R44,ventilator,General,available,10
+R45,bed,Surgery,in use,5
+R46,ventilator,Surgery,in use,7
+R47,bed,ICU,in use,7
+R48,bed,ICU,available,1
+R49,bed,Surgery,in use,3
+R50,operating room,General,available,2
+R51,operating room,Emergency,in use,5
+R52,bed,Emergency,available,7
+R53,bed,Emergency,in use,1
+R54,operating room,Surgery,available,5
+R55,bed,Emergency,available,1
+R56,operating room,Emergency,in use,2
+R57,ventilator,Pediatrics,available,4
+R58,bed,Pediatrics,available,8
+R59,operating room,Emergency,available,10
+R60,bed,Surgery,available,4
+R61,bed,Pediatrics,in use,9
+R62,operating room,ICU,available,9
+R63,ventilator,Surgery,in use,9
+R64,ventilator,General,available,2
+R65,bed,Surgery,in use,4
+R66,bed,ICU,in use,10
+R67,bed,Pediatrics,in use,10
+R68,bed,ICU,available,3
+R69,ventilator,General,available,1
+R70,operating room,General,available,4
+R71,operating room,General,available,10
+R72,bed,Surgery,available,9
+R73,bed,ICU,in use,7
+R74,ventilator,ICU,in use,10
+R75,bed,Emergency,in use,8
+R76,operating room,Pediatrics,in use,8
+R77,bed,ICU,in use,9
+R78,ventilator,Emergency,in use,5
+R79,operating room,Pediatrics,in use,9
+R80,bed,Surgery,in use,9
+R81,bed,ICU,in use,9
+R82,bed,Surgery,available,6
+R83,operating room,Pediatrics,in use,3
+R84,operating room,Pediatrics,available,7
+R85,operating room,Surgery,in use,10
+R86,operating room,Surgery,available,1
+R87,bed,Surgery,available,1
+R88,operating room,Pediatrics,available,2
+R89,bed,ICU,in use,3
+R90,ventilator,Surgery,available,8
+R91,operating room,Surgery,in use,7
+R92,bed,General,in use,2
+R93,ventilator,ICU,available,2
+R94,bed,Emergency,available,5
+R95,ventilator,Surgery,available,5
+R96,operating room,Surgery,available,4
+R97,bed,ICU,available,3
+R98,bed,Pediatrics,in use,5
+R99,operating room,ICU,in use,2
+R100,bed,Emergency,available,9

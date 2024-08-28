@@ -1,0 +1,201 @@
+staff_id,department_id,staff_name,staff_role,skills,experience_level,overtime_rate_per_hour
+S1,ICU,Dr. Steven Hansen MD,doctor,"['intensive care', 'anesthesia']",5,75
+S2,ICU,Leslie Brown,doctor,"['intensive care', 'pediatrics']",4,60
+S3,Emergency,Angel Harper,technician,"['general care', 'surgery', 'anesthesia']",3,20
+S4,Surgery,Philip Day,technician,"['anesthesia', 'pediatrics']",3,20
+S5,Pediatrics,Jessica Taylor,doctor,"['general care', 'anesthesia', 'surgery']",4,60
+S6,Emergency,Christina Hill,technician,"['general care', 'anesthesia']",3,20
+S7,Emergency,Mark Parker,technician,"['general care', 'surgery']",5,40
+S8,ICU,Kristine Daniels,doctor,"['pediatrics', 'intensive care', 'surgery']",4,60
+S9,ICU,Ryan Jones,nurse,['general care'],4,40
+S10,ICU,Miss Samantha Garza,doctor,['anesthesia'],4,60
+S11,Pediatrics,Troy Gordon,technician,"['pediatrics', 'general care', 'intensive care']",4,30
+S12,Pediatrics,Mr. Michael Davis,technician,"['anesthesia', 'surgery']",4,30
+S13,Pediatrics,Henry Hampton,technician,"['pediatrics', 'intensive care']",3,20
+S14,Surgery,Greg Wright,nurse,"['pediatrics', 'general care', 'anesthesia']",3,30
+S15,Surgery,Catherine Forbes,technician,['anesthesia'],5,40
+S16,General,Steven Erickson,doctor,['anesthesia'],3,50
+S17,Pediatrics,Mike Edwards,technician,"['pediatrics', 'surgery', 'anesthesia']",4,30
+S18,Pediatrics,Tamara Harvey,technician,['general care'],4,30
+S19,Emergency,Joe Moore,nurse,"['pediatrics', 'anesthesia']",5,55
+S20,Pediatrics,Christine Campbell,doctor,"['intensive care', 'anesthesia', 'general care']",3,50
+S21,Pediatrics,Corey Gonzales,nurse,"['general care', 'intensive care']",5,55
+S22,Pediatrics,James Mills,technician,"['intensive care', 'general care']",5,40
+S23,Emergency,Patrick Bonilla,technician,"['anesthesia', 'general care', 'intensive care']",5,40
+S24,Emergency,Marcus Schmidt,nurse,"['general care', 'intensive care']",4,40
+S25,Surgery,Samuel Richardson,technician,['intensive care'],5,40
+S26,General,Laura Padilla,technician,['intensive care'],4,30
+S27,ICU,Elizabeth Wilson,nurse,"['surgery', 'pediatrics']",4,40
+S28,Emergency,Adam Gonzalez,nurse,"['intensive care', 'pediatrics']",4,40
+S29,ICU,Tina Gould,technician,"['anesthesia', 'pediatrics', 'surgery']",4,30
+S30,ICU,Brittany Moore,nurse,"['general care', 'intensive care', 'pediatrics']",5,55
+S31,Emergency,Tonya Carr,nurse,"['anesthesia', 'surgery', 'general care']",5,55
+S32,Pediatrics,Stuart Padilla,nurse,['surgery'],3,30
+S33,Pediatrics,Katherine Davis,nurse,['general care'],4,40
+S34,Surgery,Michael Johnson,doctor,['anesthesia'],3,50
+S35,Emergency,James Martin,technician,"['general care', 'pediatrics', 'anesthesia']",4,30
+S36,General,Joshua Brock,nurse,['surgery'],5,55
+S37,Emergency,Lisa Flores,technician,['general care'],5,40
+S38,General,Jeremiah Peterson,doctor,"['intensive care', 'pediatrics']",4,60
+S39,Emergency,Helen Webster,technician,"['surgery', 'anesthesia']",3,20
+S40,Pediatrics,Edward Pierce,doctor,"['general care', 'intensive care', 'surgery']",4,60
+S41,General,Kirsten Adams,technician,['pediatrics'],5,40
+S42,Surgery,Timothy Sanders,nurse,"['anesthesia', 'intensive care', 'pediatrics']",3,30
+S43,General,Dana Taylor,nurse,"['pediatrics', 'intensive care', 'anesthesia']",5,55
+S44,Emergency,Jared Jones,technician,['pediatrics'],4,30
+S45,General,Felicia Barnes,doctor,['intensive care'],5,75
+S46,Pediatrics,Joseph Brown,doctor,"['surgery', 'general care', 'anesthesia']",5,75
+S47,Pediatrics,Melissa Henson,technician,"['intensive care', 'pediatrics', 'anesthesia']",5,40
+S48,Pediatrics,Matthew Kelley,nurse,"['intensive care', 'surgery', 'general care']",3,30
+S49,General,Patrick Huber,doctor,"['anesthesia', 'surgery', 'intensive care']",3,50
+S50,ICU,Michael Clark,doctor,['pediatrics'],4,60
+S51,General,David Thomas,technician,['surgery'],5,40
+S52,Pediatrics,Kristin Martinez,nurse,"['intensive care', 'surgery', 'anesthesia']",4,40
+S53,General,Joshua Bennett,doctor,"['general care', 'anesthesia', 'surgery']",4,60
+S54,ICU,Tina Garner,technician,"['pediatrics', 'general care']",3,20
+S55,Surgery,Eric Edwards,technician,"['pediatrics', 'intensive care', 'anesthesia']",3,20
+S56,Emergency,Edward Mercer,doctor,"['anesthesia', 'surgery', 'general care']",4,60
+S57,Emergency,Kevin Watts,doctor,"['pediatrics', 'intensive care', 'anesthesia']",4,60
+S58,Surgery,Allison Miller,doctor,"['anesthesia', 'pediatrics', 'general care']",3,50
+S59,Surgery,Michael Clark,nurse,['general care'],4,40
+S60,Pediatrics,Kyle Allen,nurse,['intensive care'],3,30
+S61,ICU,Marcus Roberts,doctor,"['intensive care', 'pediatrics', 'surgery']",3,50
+S62,Surgery,Paige Moran,technician,"['anesthesia', 'pediatrics', 'intensive care']",3,20
+S63,General,Sean Nguyen,nurse,"['anesthesia', 'surgery', 'intensive care']",5,55
+S64,Pediatrics,Marco Richardson,nurse,"['surgery', 'pediatrics', 'general care']",3,30
+S65,Emergency,David Gordon,doctor,"['pediatrics', 'intensive care']",5,75
+S66,Surgery,Melissa Crane,nurse,"['pediatrics', 'intensive care']",3,30
+S67,Pediatrics,Jamie Stewart,technician,"['surgery', 'general care']",4,30
+S68,Surgery,Hannah Bonilla,doctor,['anesthesia'],4,60
+S69,ICU,Margaret Rogers,nurse,['general care'],3,30
+S70,Pediatrics,Jamie Jordan,technician,"['surgery', 'general care', 'intensive care']",4,30
+S71,Pediatrics,Laurie Parrish,doctor,['surgery'],3,50
+S72,General,Angela Garcia,nurse,"['anesthesia', 'pediatrics', 'general care']",4,40
+S73,General,Sarah Collins,technician,['general care'],4,30
+S74,ICU,Anthony Rodriguez,technician,"['general care', 'surgery']",3,20
+S75,Surgery,Patricia Sherman,doctor,['intensive care'],3,50
+S76,Surgery,Faith Jennings,doctor,"['surgery', 'pediatrics', 'anesthesia']",4,60
+S77,General,Brandon Koch,nurse,"['anesthesia', 'pediatrics']",5,55
+S78,General,Gina Alvarez,nurse,['pediatrics'],5,55
+S79,Emergency,Sherry Bradshaw,doctor,"['surgery', 'pediatrics', 'anesthesia']",4,60
+S80,Pediatrics,Deborah Ferguson,nurse,"['surgery', 'pediatrics']",5,55
+S81,General,Melissa Smith,technician,['surgery'],5,40
+S82,Surgery,Karen Moore,doctor,['intensive care'],3,50
+S83,General,Daniel Phillips,nurse,"['general care', 'pediatrics']",4,40
+S84,General,Edward Mcguire,doctor,"['anesthesia', 'intensive care', 'pediatrics']",4,60
+S85,Surgery,Tracie Smith,technician,['intensive care'],3,20
+S86,ICU,Angel Tapia,doctor,"['pediatrics', 'surgery']",3,50
+S87,ICU,Amanda Woods,technician,['anesthesia'],5,40
+S88,Pediatrics,Nicholas Houston,doctor,['pediatrics'],5,75
+S89,Emergency,John Johnson,nurse,['pediatrics'],5,55
+S90,Surgery,John Chavez,technician,"['intensive care', 'general care']",3,20
+S91,ICU,Donna Hopkins,doctor,"['general care', 'intensive care']",3,50
+S92,Surgery,Anthony Lawrence,technician,"['general care', 'intensive care']",4,30
+S93,Emergency,Madison Schmidt,nurse,['anesthesia'],5,55
+S94,ICU,Christina Oneill,doctor,"['intensive care', 'surgery']",3,50
+S95,Emergency,Chris Johnson,doctor,"['anesthesia', 'pediatrics']",4,60
+S96,Emergency,Kathleen Wade,nurse,"['anesthesia', 'pediatrics', 'intensive care']",4,40
+S97,ICU,Jeanette Medina,doctor,"['pediatrics', 'general care', 'anesthesia']",4,60
+S98,ICU,Keith Buchanan,nurse,['surgery'],4,40
+S99,Pediatrics,Matthew Ramirez,nurse,"['intensive care', 'general care', 'surgery']",4,40
+S100,General,Marcus Jones,nurse,['intensive care'],4,40
+S101,Pediatrics,Cynthia Hughes,technician,['pediatrics'],5,40
+S102,ICU,Joshua Bowen,technician,['general care'],3,20
+S103,Pediatrics,Gene Roberts,doctor,"['pediatrics', 'intensive care']",3,50
+S104,Pediatrics,Ann Moore,nurse,"['intensive care', 'general care']",3,30
+S105,Surgery,Anne Harris,doctor,"['intensive care', 'surgery']",4,60
+S106,Emergency,James Wright,technician,"['general care', 'anesthesia']",3,20
+S107,Surgery,Eileen Herrera,technician,['general care'],4,30
+S108,Pediatrics,Hannah Mosley,nurse,"['surgery', 'anesthesia', 'general care']",3,30
+S109,ICU,Amy Berger,nurse,"['pediatrics', 'anesthesia', 'intensive care']",3,30
+S110,ICU,Joy Alvarez,doctor,['surgery'],3,50
+S111,Emergency,Clifford Silva,technician,"['pediatrics', 'intensive care']",3,20
+S112,Emergency,Gregory Strickland,nurse,['anesthesia'],3,30
+S113,ICU,Penny Matthews,technician,"['anesthesia', 'intensive care']",5,40
+S114,Surgery,Taylor Hernandez,technician,"['surgery', 'general care', 'anesthesia']",3,20
+S115,Pediatrics,Raymond Davis,technician,"['pediatrics', 'general care', 'anesthesia']",4,30
+S116,Pediatrics,Crystal Howard,doctor,"['pediatrics', 'intensive care']",5,75
+S117,Pediatrics,Robert Morgan,doctor,"['general care', 'anesthesia']",5,75
+S118,General,Wayne Cochran,nurse,"['surgery', 'general care', 'intensive care']",3,30
+S119,Emergency,Steven Morgan,doctor,"['general care', 'pediatrics']",5,75
+S120,ICU,Chloe Scott,technician,"['pediatrics', 'general care']",3,20
+S121,Pediatrics,Anna Lee,nurse,['surgery'],5,55
+S122,Pediatrics,Justin Pierce,nurse,"['surgery', 'general care', 'pediatrics']",5,55
+S123,Pediatrics,Christopher Wall,technician,"['surgery', 'intensive care']",3,20
+S124,Surgery,Matthew Chang,technician,"['surgery', 'pediatrics', 'general care']",5,40
+S125,Emergency,Matthew Singleton,technician,['intensive care'],3,20
+S126,Surgery,Elizabeth Payne,doctor,"['general care', 'surgery', 'intensive care']",4,60
+S127,Pediatrics,Connor Howard DVM,doctor,"['anesthesia', 'pediatrics', 'general care']",3,50
+S128,Emergency,Dylan Randall,doctor,['surgery'],5,75
+S129,Surgery,John Castro,doctor,['general care'],3,50
+S130,Pediatrics,Stephen Macias,doctor,['intensive care'],5,75
+S131,Emergency,Kim Ramos,nurse,"['pediatrics', 'anesthesia', 'intensive care']",5,55
+S132,ICU,Jared Garcia,nurse,"['pediatrics', 'anesthesia']",5,55
+S133,ICU,Joseph Lowe,nurse,"['surgery', 'pediatrics']",3,30
+S134,Emergency,Damon Lee,technician,"['anesthesia', 'surgery']",3,20
+S135,Pediatrics,Anthony Ross,technician,"['surgery', 'intensive care']",3,20
+S136,General,Christopher Williams,doctor,"['general care', 'intensive care', 'surgery']",5,75
+S137,Emergency,Michael Brewer,technician,['intensive care'],3,20
+S138,General,Rachael Nelson,doctor,"['pediatrics', 'surgery']",3,50
+S139,Pediatrics,Bradley Brooks,technician,['pediatrics'],3,20
+S140,General,Samuel Dixon,technician,['anesthesia'],4,30
+S141,ICU,Latoya Duke,technician,"['pediatrics', 'anesthesia']",5,40
+S142,General,Laura Brewer,technician,"['surgery', 'pediatrics', 'intensive care']",5,40
+S143,General,Dennis Anderson,doctor,"['surgery', 'anesthesia', 'intensive care']",5,75
+S144,ICU,Victoria Brown,technician,"['intensive care', 'pediatrics', 'general care']",5,40
+S145,ICU,Austin Galvan,nurse,"['pediatrics', 'anesthesia', 'general care']",3,30
+S146,ICU,Michelle Williams,nurse,['intensive care'],5,55
+S147,Surgery,Jennifer Simmons,doctor,['surgery'],5,75
+S148,General,Veronica Compton,doctor,"['surgery', 'pediatrics', 'general care']",4,60
+S149,Pediatrics,Wendy Scott,nurse,['surgery'],5,55
+S150,Pediatrics,Rick Stevenson,nurse,['intensive care'],4,40
+S151,General,Gregory Mitchell,doctor,"['general care', 'pediatrics', 'surgery']",3,50
+S152,ICU,Colleen Savage,doctor,"['general care', 'intensive care', 'pediatrics']",3,50
+S153,Emergency,Danielle Moses,doctor,"['surgery', 'general care']",4,60
+S154,Surgery,Deborah Parks,technician,"['pediatrics', 'general care', 'intensive care']",5,40
+S155,ICU,Amanda Hall,nurse,"['pediatrics', 'intensive care', 'general care']",3,30
+S156,ICU,Kristin Lane,technician,['pediatrics'],3,20
+S157,Surgery,Harold Hill,doctor,"['anesthesia', 'general care']",3,50
+S158,Pediatrics,Javier Hernandez,nurse,['surgery'],3,30
+S159,ICU,Steven Young,doctor,"['surgery', 'anesthesia', 'general care']",4,60
+S160,Surgery,Derrick Schwartz,technician,"['pediatrics', 'general care', 'intensive care']",4,30
+S161,General,Michael Curtis,technician,['general care'],5,40
+S162,Emergency,Peggy Anderson,doctor,"['pediatrics', 'general care']",5,75
+S163,Emergency,Bernard Sanchez,technician,['surgery'],3,20
+S164,Emergency,Tracey Bolton,nurse,['pediatrics'],5,55
+S165,ICU,Roy Moody,technician,"['pediatrics', 'surgery', 'intensive care']",4,30
+S166,ICU,Shelley Ingram,technician,"['surgery', 'anesthesia', 'pediatrics']",3,20
+S167,ICU,Dr. Alexandra Bartlett DVM,nurse,"['surgery', 'pediatrics']",3,30
+S168,General,Susan Young,doctor,"['intensive care', 'surgery']",5,75
+S169,Surgery,Mark Garcia,technician,['pediatrics'],3,20
+S170,Emergency,Katelyn Patrick,technician,['surgery'],4,30
+S171,Emergency,Brandi Robertson,nurse,"['anesthesia', 'surgery']",5,55
+S172,Emergency,Jessica Williams,nurse,"['general care', 'intensive care']",4,40
+S173,Surgery,Stephanie Reed,doctor,"['anesthesia', 'general care']",4,60
+S174,Surgery,Michael Wagner,doctor,['general care'],4,60
+S175,Emergency,Renee Webb,doctor,"['general care', 'intensive care']",5,75
+S176,Pediatrics,Benjamin Harvey,nurse,"['intensive care', 'surgery', 'general care']",4,40
+S177,General,William Hale,nurse,"['anesthesia', 'surgery']",5,55
+S178,General,Andrew Bradley,technician,"['general care', 'pediatrics', 'intensive care']",5,40
+S179,Surgery,Kristina Chavez,nurse,"['intensive care', 'general care', 'anesthesia']",5,55
+S180,ICU,Steven Davis,doctor,"['anesthesia', 'intensive care']",4,60
+S181,Emergency,Travis Elliott,technician,"['general care', 'anesthesia', 'pediatrics']",5,40
+S182,General,Deborah Higgins,nurse,"['surgery', 'anesthesia', 'pediatrics']",4,40
+S183,Pediatrics,Sarah Ward,doctor,"['anesthesia', 'general care']",5,75
+S184,Surgery,Christopher Jimenez,nurse,['general care'],4,40
+S185,Surgery,Jade Chavez MD,technician,"['intensive care', 'pediatrics']",4,30
+S186,Surgery,Leon Weber,doctor,"['pediatrics', 'intensive care', 'general care']",4,60
+S187,Surgery,David Wood,doctor,['pediatrics'],4,60
+S188,Pediatrics,Hannah Hayes,doctor,['intensive care'],5,75
+S189,Pediatrics,Julie Roberts,nurse,"['general care', 'pediatrics', 'surgery']",4,40
+S190,Surgery,Mr. Paul Craig,doctor,"['surgery', 'anesthesia']",3,50
+S191,General,Keith Chavez,technician,"['anesthesia', 'general care', 'intensive care']",3,20
+S192,General,Amanda Harvey,doctor,"['intensive care', 'general care']",4,60
+S193,General,Samuel Berger,nurse,['anesthesia'],4,40
+S194,Pediatrics,Tony Smith,nurse,"['general care', 'intensive care']",5,55
+S195,Surgery,Justin Jackson,technician,['general care'],5,40
+S196,Pediatrics,Theresa Contreras,technician,['general care'],4,30
+S197,Emergency,Jamie Baker,doctor,['surgery'],3,50
+S198,ICU,Barbara Bond,nurse,"['intensive care', 'anesthesia']",3,30
+S199,ICU,Barry Velez,technician,"['anesthesia', 'pediatrics', 'intensive care']",5,40
+S200,Pediatrics,Kristin Weber,doctor,"['general care', 'intensive care']",5,75

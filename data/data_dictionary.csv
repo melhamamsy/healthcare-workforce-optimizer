@@ -1,0 +1,55 @@
+Table Name,Column Name,Data Type,Description
+current_patient_visits,visit_id,Unique Identifier,Unique identifier for each ongoing or scheduled patient visit
+current_patient_visits,patient_id,Foreign Key,Unique identifier for the patient
+current_patient_visits,department_id,Foreign Key,Department where the visit is occurring or scheduled
+current_patient_visits,visit_date,Datetime,Date and time of the visit
+current_patient_visits,visit_duration,Integer,Expected or actual duration of the visit (in minutes)
+current_patient_visits,visit_type,String,"Type of visit (e.g., emergency, routine check-up)"
+current_patient_visits,severity_level,String,"Classification of the visit severity (e.g., low, medium, high)"
+current_patient_visits,staff_required,String,Number and type of staff required for the visit
+current_patient_visits,staff_skills_required,String,List of specific skills required for the visit
+current_patient_visits,experience_level_required,Integer,"Experience level required for the visit (e.g., 3, 4, 5)"
+future_appointments,appointment_id,Unique Identifier,Unique identifier for each scheduled appointment
+future_appointments,patient_id,Foreign Key,Unique identifier for the patient
+future_appointments,department_id,Foreign Key,Department where the appointment is scheduled
+future_appointments,appointment_date,Datetime,Date and time of the appointment
+future_appointments,appointment_type,String,"Type of appointment (e.g., follow-up, first-time visit)"
+future_appointments,estimated_duration,Integer,Estimated duration of the appointment (in minutes)
+future_appointments,staff_required,String,Number and type of staff required for the appointment
+future_appointments,staff_skills_required,String,List of specific skills required for the appointment
+future_appointments,experience_level_required,Integer,"Experience level required for the appointment (e.g., 3, 4, 5)"
+current_hospitalized_patients,hospitalization_id,Unique Identifier,Unique identifier for each current hospitalization case
+current_hospitalized_patients,patient_id,Foreign Key,Unique identifier for the patient
+current_hospitalized_patients,department_id,Foreign Key,Department where the patient is admitted
+current_hospitalized_patients,admission_date,Datetime,Date and time of patient admission
+current_hospitalized_patients,discharge_date,Datetime,Expected discharge date and time (if applicable)
+current_hospitalized_patients,required_staff_types,String,Types of staff required per shift
+current_hospitalized_patients,staff_skills_required,String,List of specific skills required for ongoing care
+current_hospitalized_patients,experience_level_required,Integer,"Experience level required for the care provided (e.g., 3, 4, 5)"
+current_hospitalized_patients,care_frequency,String,"Frequency of care needed (e.g., every 4 hours)"
+current_hospitalized_patients,severity_level,String,Severity level of the patient's condition
+current_staff_schedules,current_status,String,"Current status of the patient (e.g., stable, critical)"
+current_staff_schedules,schedule_id,Unique Identifier,Unique identifier for each current or upcoming schedule entry
+current_staff_schedules,staff_id,Foreign Key,Unique identifier for the staff member
+current_staff_schedules,department_id,Foreign Key,Department where the staff is scheduled
+current_staff_schedules,shift_start,Datetime,Start time of the shift
+staff_details,shift_end,Datetime,End time of the shift
+staff_details,staff_id,Unique Identifier,Unique identifier for each staff member
+staff_details,department_id,Foreign Key,Department where the staff member works
+staff_details,staff_name,String,Full name of the staff member
+staff_details,staff_role,String,"Role of the staff member (e.g., doctor, nurse, technician)"
+staff_details,skills,String,"Specialized skills relevant to the role (e.g., surgery, intensive care)"
+current_resources,experience_level,Integer,"Experience level of the staff member (e.g., 3, 4, 5)"
+current_resources,overtime_rate_per_hour,Decimal,Overtime compensation rate per hour based on role and experience level
+current_resources,resource_id,Unique Identifier,Unique identifier for each resource
+current_resources,resource_type,String,"Type of resource (e.g., bed, ventilator, operating room)"
+resource_allocation,department_id,Foreign Key,Department where the resource is located
+resource_allocation,availability_status,String,Indicates if the resource is available or in use
+resource_allocation,capacity,Integer,"Capacity or quantity (if applicable, e.g., number of beds in a ward)"
+resource_allocation,allocation_id,Unique Identifier,Unique identifier for each resource allocation event
+resource_allocation,resource_id,Foreign Key,Reference to the specific resource allocated
+resource_allocation,patient_id,Foreign Key,Unique identifier for the patient using the resource
+,department_id,Foreign Key,Department where the resource is allocated
+,allocation_start,Datetime,Start time of the resource allocation
+,allocation_end,Datetime,Expected end time of the resource allocation (if applicable)
+,status,String,"Current status of the allocation (e.g., active, pending)"
